@@ -2,9 +2,17 @@
     <channel>
         <title>Jiajian Fu&#39;s</title>
         <link>https://jiajianfu.github.io/</link>
-        <description>这是我的全新 Hugo 网站</description>
+        <description>this is Jiajian Fu&#39;s profile site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</lastBuildDate>
             <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>MechaX Robots Overview</title>
+    <link>https://jiajianfu.github.io/posts/first_post/</link>
+    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/first_post/</guid>
+    <description><![CDATA[The display and introduction of all the Robots of the MechaX in the 2023 season 0. The Competition Rules of RoboMaster University Championship（RMUC）2023 1. Hero Hero Launches 42mm projectiles to cause tremendous damage to the opponents 2. Engineer Engineer Features flexible structure, competes for minerals to gain economic advantages]]></description>
+</item>
+</channel>
 </rss>
