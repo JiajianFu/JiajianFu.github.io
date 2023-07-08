@@ -4,9 +4,17 @@
         <link>https://jiajianfu.github.io/</link>
         <description>this is Jiajian Fu&#39;s profile site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 07 Jul 2023 15:38:28 &#43;0800</lastBuildDate>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</lastBuildDate>
             <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Robot Design｜MX_2 Engineer</title>
+    <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
+    <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
+    <description><![CDATA[Introduction to Robot Design Background The core task of the engineer robot is to obtain gold ore from the large resource island in the center of the field and silver ore from the small resource island, and complete the exchange at the exchange station to obtain economic support for the whole team. This season, the method of exchanging ore for projects has changed a lot. The exchange station has been]]></description>
+</item>
+<item>
     <title>MechaX：About Us</title>
     <link>https://jiajianfu.github.io/posts/second_post/</link>
     <pubDate>Fri, 07 Jul 2023 15:38:28 &#43;0800</pubDate>
