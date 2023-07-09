@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/mx_2_engineer\/"
-        },"genre": "posts","wordcount":  1555 ,
+        },"genre": "posts","wordcount":  1763 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/mx_2_engineer\/","datePublished": "2023-07-08T16:04:05+08:00","dateModified": "2023-07-08T16:04:05+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜MX_2 Engineer</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-08">2023-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1555 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-08">2023-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1763 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -126,8 +126,18 @@
         <li><a href="#design-of-ore-gripping-mechanism">Design of Ore Gripping Mechanism</a></li>
       </ul>
     </li>
-    <li><a href="#introduction-to-hardware-design">Introduction to Hardware Design</a></li>
-    <li><a href="#introduction-to-software-design">Introduction to Software Design</a></li>
+    <li><a href="#introduction-to-hardware-design">Introduction to Hardware Design</a>
+      <ul>
+        <li><a href="#block-diagram-of-robot-system">Block Diagram of Robot System</a></li>
+      </ul>
+    </li>
+    <li><a href="#introduction-to-software-design">Introduction to Software Design</a>
+      <ul>
+        <li><a href="#system-task-architecture">System Task Architecture</a></li>
+        <li><a href="#system-task-architecture-1">System Task Architecture</a></li>
+        <li><a href="#key-functions">Key Functions</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content">
@@ -244,10 +254,68 @@
 
 <div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1QZ4y147Bi&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
 
+<hr>
 <h2 id="introduction-to-hardware-design">Introduction to Hardware Design</h2>
-<p>to be continued</p>
+<p>Due to the complexity of its own structure, the engineer robot uses as many as 12 brushless geared motors, uses two smart batteries, and is also equipped with Intel NUC, Brushless Suction Cup Motor, referee system and other equipment. **It is important to have a detailed topology plan for its electronic equipments.**We have designed a very concise power supply and signal transmission topology to facilitate inspection and repair.</p>
+<h3 id="block-diagram-of-robot-system">Block Diagram of Robot System</h3>
+<figure><img src="/images/MX_2_Engineer/%e4%be%9b%e7%94%b5%e6%a1%86%e5%9b%be.png"/><figcaption>
+            <h4>Block diagram of robot power supply system</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/MX_2_Engineer/%e4%bf%a1%e5%8f%b7%e6%a1%86%e5%9b%be.png"/><figcaption>
+            <h4>Block diagram of robot signal transmission system</h4>
+        </figcaption>
+</figure>
+
+<hr>
 <h2 id="introduction-to-software-design">Introduction to Software Design</h2>
-<p>to be continued</p>
+<p>The STM32 control code of team MechaX robots is <strong>highly modularized</strong>, and the <strong>code reuse degree is high</strong>. This greatly shortens the development time of robot motion control software.</p>
+<h3 id="system-task-architecture">System Task Architecture</h3>
+<p><figure><img src="/images/MX_2_Engineer/code1.png"/>
+</figure>
+
+We use the <strong>freertos real-time operating system</strong>
+At the same time, the <strong>encapsulation task</strong> is convenient for debugging:
+<figure><img src="/images/MX_2_Engineer/code2.png"/>
+</figure>
+
+Use <strong>keil</strong> as a tool for code writing and initial debugging
+<figure><img src="/images/MX_2_Engineer/code3.png"/>
+</figure>
+
+Tools for debugging with stm32cubemonitor as parameter:
+<figure><img src="/images/MX_2_Engineer/code4.png"/>
+</figure>
+</p>
+<h3 id="system-task-architecture-1">System Task Architecture</h3>
+<figure><img src="/images/MX_2_Engineer/%e4%bb%bb%e5%8a%a1%e7%bb%93%e6%9e%84.png"/>
+</figure>
+
+<h3 id="key-functions">Key Functions</h3>
+<h4 id="can-driver">CAN Driver</h4>
+<p>Use CAN to pass <strong>gyroscope data</strong> between the upper and lower C-boards:
+<figure><img src="/images/MX_2_Engineer/code5.png"/>
+</figure>
+
+Use can to pass <strong>motor</strong> control messages:
+<figure><img src="/images/MX_2_Engineer/code6.png"/>
+</figure>
+
+Use can to pass <strong>Supercapacitor</strong> control messages:
+<figure><img src="/images/MX_2_Engineer/code6.png"/>
+</figure>
+</p>
+<h4 id="gyro">Gyro</h4>
+<p>Successfully obtained gyroscope data, which provided a basis for subsequent tasks such as attitude calculation and spin
+Read gyroscope data:
+<figure><img src="/images/MX_2_Engineer/code7.png"/>
+</figure>
+
+Control gyroscope temperature zero drift:
+<figure><img src="/images/MX_2_Engineer/code8.png"/>
+</figure>
+</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
