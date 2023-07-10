@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/mx_2_engineer\/"
-        },"genre": "posts","wordcount":  1763 ,
+        },"genre": "posts","wordcount":  1958 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/mx_2_engineer\/","datePublished": "2023-07-08T16:04:05+08:00","dateModified": "2023-07-08T16:04:05+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜MX_2 Engineer</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-08">2023-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1763 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-08">2023-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1958 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -138,6 +138,7 @@
         <li><a href="#key-functions">Key Functions</a></li>
       </ul>
     </li>
+    <li><a href="#summarize">Summarize</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content">
@@ -271,6 +272,7 @@
 <hr>
 <h2 id="introduction-to-software-design">Introduction to Software Design</h2>
 <p>The STM32 control code of team MechaX robots is <strong>highly modularized</strong>, and the <strong>code reuse degree is high</strong>. This greatly shortens the development time of robot motion control software.</p>
+<p>All the robots in our team use a similar code framework, take MX_2  Engineer as an example to explain：</p>
 <h3 id="system-task-architecture">System Task Architecture</h3>
 <p><figure><img src="/images/MX_2_Engineer/code1.png"/>
 </figure>
@@ -303,19 +305,41 @@ Use can to pass <strong>motor</strong> control messages:
 </figure>
 
 Use can to pass <strong>Supercapacitor</strong> control messages:
-<figure><img src="/images/MX_2_Engineer/code6.png"/>
+<figure><img src="/images/MX_2_Engineer/code7.png"/>
 </figure>
 </p>
 <h4 id="gyro">Gyro</h4>
 <p>Successfully obtained gyroscope data, which provided a basis for subsequent tasks such as attitude calculation and spin
 Read gyroscope data:
-<figure><img src="/images/MX_2_Engineer/code7.png"/>
+<figure><img src="/images/MX_2_Engineer/code8.png"/>
 </figure>
 
 Control gyroscope temperature zero drift:
-<figure><img src="/images/MX_2_Engineer/code8.png"/>
+<figure><img src="/images/MX_2_Engineer/code9.png"/>
 </figure>
 </p>
+<h4 id="serial-port-communication">Serial Port Communication</h4>
+<p>Use RoboMaster Development Board Type-C USART3 to communicate with the remote control, and use USART6 to communicate with the referee system.
+In order to increase the communication rate and ensure the stability of the communication, <strong>the above two serial communication uses the serial idle interrupt plus DMA dual buffered mode.</strong>
+Various initialization configurations of serial communication are written in <em>drv_usart.c</em>.</p>
+<p>Part of the code is as follows：
+<figure><img src="/images/MX_2_Engineer/code10.png"/>
+</figure>
+
+<figure><img src="/images/MX_2_Engineer/code11.png"/>
+</figure>
+
+<figure><img src="/images/MX_2_Engineer/code12.png"/>
+</figure>
+</p>
+<h2 id="summarize">Summarize</h2>
+<p>Our team MechaX engineer robot is a complete project on robotics, including machinery, hardware, and software. The robot design process also exposed many of our design problems, and we improved them to improve the design level.</p>
+<p>Although the robot still has problems such as vacancies in the mechanical arm and imperfect batch processing action groups, it has realized basic functions and can complete The task of absorbing ore props. <strong>We will continue to improve the robot&rsquo;s intelligent system to realize the robot&rsquo;s automatic completion of tasks.</strong></p>
+<figure><img src="/images/MX_2_Engineer/engineerdemo.png"/><figcaption>
+            <h4>Engineer robot early test version</h4>
+        </figcaption>
+</figure>
+
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
