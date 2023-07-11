@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Jiajian Fu&#39;s site</title>
-        <link>https://jiajianfu.github.io/</link>
-        <description>this is Jiajian Fu&#39;s profile site</description>
+        <title>Robotics - Category - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/categories/robotics/</link>
+        <description>Robotics - Category - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</lastBuildDate>
-            <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/robotics/" rel="self" type="application/rss+xml" /><item>
     <title>Robot Design｜MX_2 Engineer</title>
     <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
     <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
