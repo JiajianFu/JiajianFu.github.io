@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/"
-        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  30 ,
+        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  503 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/","datePublished": "2023-07-13T16:15:21+08:00","dateModified": "2023-07-13T16:15:21+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,18 +103,67 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜Bionic Ostrich Robot</h1><h2 class="single-subtitle">This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is National second prize winning works of the 10th National College Students Mechanical Innovation Design Competition</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/robotics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Robotics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;30 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;503 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#prologue">Prologue</a></li>
+    <li><a href="#design-background">Design Background</a></li>
+    <li><a href="#robot-design">Robot Design</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#stress-analysis">Stress Analysis</a></li>
+    <li><a href="#material-and-process-selection">Material and Process Selection</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
             </div><div class="content" id="content"><p>This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is <strong>National second prize</strong> winning works of <em>the 10th National College Students Mechanical Innovation Design Competition</em></p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/WBnvCC7nAq4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div></div><div class="post-footer" id="post-footer">
+</div>
+
+<hr>
+<h2 id="prologue">Prologue</h2>
+<figure><img src="/images/Ostrich/5Ostrich.jpg"/><figcaption>
+            <h4>African ostriches</h4>
+        </figcaption>
+</figure>
+
+<p>As the fastest running biped in the world, the ostrich has strong and powerful legs and can achieve continuous high-speed movement. This superiority provides an important reference value for the mechanical structure design of biped robots. Taking the ostrich leg as the bionic prototype, I designed a wheel-legged ostrich-like robot according to the principles of engineering bionics, and carried out relevant theoretical analysis and simulation experiment research.</p>
+<figure><img src="/images/Ostrich/ostrichrun.jpg"/><figcaption>
+            <h4>Running ostrich</h4>
+        </figcaption>
+</figure>
+
+<p>In the process of designing an ostrich robot, I went through such steps：First of all, combined with the literature research method to study the biological mechanism, biological movement mechanism and movement law of ostriches, and summarize the reasons that make ostriches achieve <strong>continuous high-speed and stable running</strong>. Using bionic mechanical design and lightweight design, a wheel-legged ostrich-like robot with compact structure, simple control, high-speed running, energy saving and shock absorption is designed, and a 3D model is established through <strong>SOLIDWORKS</strong>. Secondly, the leg structure of the robot is simplified, and the forward kinematics mathematical model is established by vector analysis method, and the trajectory of the foot and the velocity and acceleration equations of each joint are obtained, and the correctness of the model is verified by <strong>ADAMS simulation</strong>. At the same time, the forward and inverse kinematics analysis of the leg mechanism of the robot is carried out, and its correctness is verified. Finally, based on <strong>D&rsquo;Alembert&rsquo;s principle</strong>, the dynamic analysis of the leg structure of the robot is carried out, a <strong>kinetostatics model</strong> is established, and the constraint reaction force of each joint and the driving torque required by the crank are solved, and the correctness of the dynamic model is verified by <strong>ADAMS simulation</strong>.</p>
+<h2 id="design-background">Design Background</h2>
+<p>At present, the most bionic biped robots are humanoid biped robots. But the ostrich is one of the most <strong>efficient</strong> and <strong>durable</strong> large bipeds in existence. Ostrich legs have strong and powerful muscles, and under the interaction of leg bones-muscles-tendons, it has the characteristics of fast running speed, strong obstacle avoidance ability, stable and durable movement. The step length of each step of an ostrich during running can reach <strong>3.5-7m</strong>, and it can run continuously at a speed of <strong>50-60km/h</strong> for more than <strong>30 minutes</strong>, and the fastest running speed can reach <strong>70km/h</strong>. Compared with humans, the fastest running speed of ostriches is twice that of humans, and when the speed of movement exceeds <strong>2km/h</strong>, the energy utilization efficiency of ostriches is about <strong>1.5 times</strong> that of humans. Therefore, the ostrich provides important reference value in the research and bioinspired design of bioinspired biped robots with high energy efficiency and high speed.</p>
+<figure><img src="/images/Ostrich/Ostriches-spread1.jpg"/>
+</figure>
+
+<h2 id="robot-design">Robot Design</h2>
+<h4 id="robot-design-metrics">Robot Design Metrics</h4>
+<h4 id="structural-design">Structural Design</h4>
+<h6 id="analysis-of-biological-characteristics-of-ostrich-legs">Analysis of biological characteristics of ostrich legs</h6>
+<h6 id="configuration-selection">Configuration selection</h6>
+<h4 id="mechanical-model-analysis">Mechanical Model Analysis</h4>
+<h6 id="static-analysis">Static analysis</h6>
+<h6 id="kinematic-analysis">Kinematic analysis</h6>
+<h6 id="gait-design">Gait design</h6>
+<h2 id="stress-analysis">Stress Analysis</h2>
+<h2 id="material-and-process-selection">Material and Process Selection</h2>
+<h4 id="material-selection">Material Selection</h4>
+<h4 id="selection-of-key-member-shape-and-size">Selection of Key Member Shape and Size</h4></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
