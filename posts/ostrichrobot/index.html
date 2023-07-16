@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/"
-        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  780 ,
+        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  1750 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/","datePublished": "2023-07-13T16:15:21+08:00","dateModified": "2023-07-13T16:15:21+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜Bionic Ostrich Robot</h1><h2 class="single-subtitle">This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is National second prize winning works of the 10th National College Students Mechanical Innovation Design Competition</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/robotics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Robotics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;780 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1750 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -155,14 +155,71 @@
 <h4 id="robot-design-metrics">Robot Design Metrics</h4>
 <p>The device should realize the basic function of bionic ostrich running. Mechanically capable of running fast. Remote control is possible on the control. And it is necessary to ensure that the device will not fall when it is running.</p>
 <h4 id="structural-design">Structural Design</h4>
+<h6 id="analysis-of-biological-characteristics-of-ostrich-legs">Analysis of biological characteristics of ostrich legs</h6>
 <p>The ostrich is the largest and heaviest biped animal in the world. It can run continuously for 30 minutes at an average speed of 50-60km/h. It is the fastest stable runner in the world, and its fastest running speed can reach 80km /h. According to the ostrich leg skeletal muscle model established by John R. Hutchinson et al., as shown in the figure, from top to bottom, the ostrich leg bones include <strong>femur, tibia, tarsal metatarsal, three phalanges and toenails</strong>, and the main joints include the <strong>hip joint , knee joint, ankle joint and metatarsophalangeal joint</strong>, the red line in the figure indicates the muscle-tendon structure of the ostrich leg. It can be seen from the figure that the ostrich legs have many <strong>double-joint or three-joint muscles connecting the knees</strong>, metatarsophalangeal joints, interphalangeal joints and toes, which can produce a <strong>high rigid-flexible coupling effect</strong> on the distal limbs of the ostrich, thereby coordinating the ostrich to complete Distal limb movement. In contrast, the hip joints of the ostrich legs are muscular, which mainly provide stability during the movement of the ostrich, and the joints directly used to adjust the posture of the ostrich limbs are the knee joints of the ostrich. The function of the ostrich knee joint is similar to that of the human hip joint, which can adjust the movement of the ostrich within a large range of motion.</p>
 <figure><img src="/images/Ostrich/muscle.png"/><figcaption>
             <h4>Illustration of ostrich leg skeletal muscle model</h4>
         </figcaption>
 </figure>
 
-<h6 id="analysis-of-biological-characteristics-of-ostrich-legs">Analysis of biological characteristics of ostrich legs</h6>
+<p>Therefore, the leg muscles of ostriches are mainly concentrated near the hip joints of ostriches, while the tibia and tarsal metatarsal bones are relatively light in mass, and are mainly driven by tendons or ligaments to generate movement, thereby reducing the mass of the distal end of the ostrich legs and reducing the rotation inertia. This facilitates the <strong>energy-efficient</strong> movement of the ostrich.</p>
+<p>In order to enhance the output force of the muscles at the ostrich hip joint to the distal end of the leg, the rigid-flexible coupling leg of the ostrich combines the <strong>principle of leverage</strong>, so that the muscles and tendons are connected with the protruding part of the tibia at the knee joint of the ostrich and the contact of the tarsal metatarsal bone at the ankle joint. The protruding parts are connected to increase the acting moment by changing the effective limb length, and drive the ostrich legs to swing. The working principle is shown in figure below.</p>
+<figure><img src="/images/Ostrich/linefig.png"/><figcaption>
+            <h4>The principle of ostrich leg movement</h4>
+        </figcaption>
+</figure>
+
+<p>In addition, the tendon acts as a buffer to delay when the muscle is exerted quickly and forcefully, thus effectively protecting the muscle from injury. The leg structure of the ostrich has well-developed tendon tissue. Through the <strong>rigid-flexible coupling</strong> characteristics of the tendon and the bone, the toe of the ostrich can partially convert the huge reaction force generated by the ground on its leg into the force of the bone before the toe touches the ground. The other part converts the impact energy into elastic potential energy and stores it by converting it into the tension of the tendon, and releases this energy at the end of the ground contact, thereby improving the movement efficiency of the ostrich. There is a passive rebound phenomenon in the joint between the ostrich tarsus and the tibia (ankle joint), which can be divided into three stages: first, the tibia is fixed, and then the joint angle between the tibia and the tarsus is changed by manipulating the tarsus; When the joint angle between the two bones is greater than 125°, the tarsus metatarsals will passively move to the maximum joint angle; when the joint angle between the two bones is less than 105°, the tarsus metatarsals will passively move to the minimum joint angle; when the joint angle between the two bones At the transition stage of 105°-125°, the passive rebound effect of this joint is not obvious, but when the joint angle between the two bones is 115°, the passive rebound phenomenon disappears, and the whole leg is in a balanced state. This passive rebound phenomenon can help the ostrich save energy consumption during exercise.</p>
+<p>During the movement of an ostrich, when its toes are about to end touching the ground, under the action of tendons, the force at the toenails will change suddenly, causing the reaction force between it and the ground to suddenly increase, resulting in a &ldquo;kicking force&rdquo;. , to help the ostrich increase the speed of movement. In addition, the metatarsophalangeal joint of the ostrich is always off the ground, and there are tendons and ligaments in the metatarsophalangeal joint. By <strong>storing and releasing energy</strong>, it can buffer the impact of the ostrich when it moves at high speed, and can also save energy consumption.</p>
+<p>Among the ostrich leg bones, the femur near the trunk is short and thick, while the tibia and tarsus are relatively slender. According to the research of Nina U. Schaller, the average length of each bone in the ostrich leg and the total leg length are shown in table below, where the total leg length is equal to the sum of the lengths of all bones. It can be seen from this that <strong>the ratio of the lengths of the bones of the ostrich</strong> is:</p>
+<p>$$ {14.70}:{30.65}:{30.65}:{34.95}:{34.95}:{19.70} $$</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">femur length</th>
+<th style="text-align:center">tibial length</th>
+<th style="text-align:center">tarsal metatarsal length</th>
+<th style="text-align:center">third toe length</th>
+<th style="text-align:center">third toe length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">301.7</td>
+<td style="text-align:center">535.5</td>
+<td style="text-align:center">469.3</td>
+<td style="text-align:center">225.1</td>
+<td style="text-align:center">1531.4</td>
+</tr>
+</tbody>
+</table>
 <h6 id="configuration-selection">Configuration selection</h6>
+<p>The main body of the leg of this device adopts a planar parallel five-bar mechanism, as shown in figure below, which consists of a main body and two bar groups. It imitates the morphological characteristics of ostrich legs in nature, and is a two-leg planar parallel mechanism. Compared with the series mechanism, the parallel mechanism has the characteristics of compact structure, high rigidity, and strong bearing capacity, which enables the robot to overcome obstacles more flexibly and move faster.</p>
+<figure><img src="/images/Ostrich/5gan.png"/><figcaption>
+            <h4>planar parallel five-bar mechanism</h4>
+        </figcaption>
+</figure>
+
+<p>Each rotary joint of the main structure of the leg of the robot has two translation degrees of freedom along the transverse direction and the longitudinal direction respectively. Assuming that the robot moves in the x direction, it can be assumed to be symmetrical in the y (horizontal) direction. At the same time, the weight of the robot is mainly concentrated on the main structure and wheels.</p>
+<p>The terminal structure of the device can be divided into two states of wheel type and step type, which can be transformed into each other through <strong>a special metamorphic mechanism</strong> during operation.</p>
+<p>As shown in the figure below, the wheel rolls around the a-axis, thereby relying on the friction between the wheel and the ground to realize the forward and backward movement of the device as a whole.</p>
+<p><figure><img src="/images/Ostrich/wheelmode.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/IMG_9541.PNG"/><figcaption>
+            <h4>Wheel structure diagram</h4>
+        </figcaption>
+</figure>
+</p>
+<p>As shown in the figure below, this device relies on the free rotation of the two hinge nodes at B and C to make the BC rod rotate rigidly. Adjust the angle between the BC rod and the ground by controlling the rotation degree at the two points B and C. The end prosthetic foot component and the BC rod are connected in a hinged manner. Due to its gravity, the connection line at the lowest point of the front and back palms is always parallel to the ground, which can be <strong>adaptively grounded</strong>.</p>
+<p><figure><img src="/images/Ostrich/legmode.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/IMG_9542.PNG"/><figcaption>
+            <h4>Leg structure diagram</h4>
+        </figcaption>
+</figure>
+</p>
 <h4 id="mechanical-model-analysis">Mechanical Model Analysis</h4>
 <h6 id="static-analysis">Static analysis</h6>
 <h6 id="kinematic-analysis">Kinematic analysis</h6>
