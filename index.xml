@@ -12,7 +12,9 @@
     <pubDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/ostrichrobot/</guid>
-    <description><![CDATA[<p>This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is <strong>National second prize</strong> winning works of <em>the 10th National College Students Mechanical Innovation Design Competition</em></p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Ostrich/ostrichcover.png" referrerpolicy="no-referrer">
+            </div><p>It is <strong>National second prize</strong> winning works of <em>the 10th National College Students Mechanical Innovation Design Competition.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</em></p>]]></description>
 </item>
 <item>
     <title>Robot Design｜MX_2 Engineer</title>
@@ -20,7 +22,9 @@
     <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
-    <description><![CDATA[<p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
+            </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
 </item>
 <item>
     <title>MechaX：About Us</title>
@@ -28,7 +32,9 @@
     <pubDate>Fri, 07 Jul 2023 15:38:28 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/second_post/</guid>
-    <description><![CDATA[<p>Introduction to team MechaX in Chongqing University</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
+            </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
 </item>
 <item>
     <title>MechaX Robots Overview</title>
@@ -36,7 +42,9 @@
     <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/first_post/</guid>
-    <description><![CDATA[<p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
+            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
 </item>
 </channel>
 </rss>

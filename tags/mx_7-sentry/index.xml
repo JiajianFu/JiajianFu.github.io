@@ -10,7 +10,9 @@
     <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/first_post/</guid>
-    <description><![CDATA[<p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
+            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
 </item>
 </channel>
 </rss>
