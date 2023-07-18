@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/"
-        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  2349 ,
+        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  2552 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/","datePublished": "2023-07-13T16:15:21+08:00","dateModified": "2023-07-13T16:15:21+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜Bionic Ostrich Robot</h1><h2 class="single-subtitle">This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is National second prize winning works of the 10th National College Students Mechanical Innovation Design Competition.The funny thing is, it all started with an idea I had in the shower......</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/robotics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Robotics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2349 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2552 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;12 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -340,6 +340,68 @@ $$ \begin{aligned}
 $$ \begin{aligned}
 \overrightarrow{O E}=\overrightarrow{O A}+\overrightarrow{A E}
 \end{aligned} $$</p>
+<p>So that
+$$ \begin{aligned}
+\overrightarrow{O E}=(x \quad y)=\left(L_1 \cos \alpha+\left(L_3+L_6\right) \cos \theta L_1 \sin \alpha+\left(L_3+L_6\right) \sin \theta\right)
+\end{aligned} $$</p>
+<p>Simplify to get
+$$ \begin{aligned}
+&amp; 2 x L_1 \cos \alpha+2 y L_1 \sin \alpha=x^2+y^2+L_1^2-\left(L_3+L_6\right)^2
+\end{aligned} $$</p>
+<p>Let
+$$ \begin{aligned}
+&amp; \mathrm{a}=2 \mathrm{xL}_1
+\end{aligned} $$</p>
+<p>$$ \begin{aligned}
+&amp; \mathrm{~b}=2 \mathrm{yL}_1
+\end{aligned} $$</p>
+<p>$$ \begin{aligned}
+&amp; c=x^2+y^2+L_1{ }^2-\left(L_3+L_6\right)^2
+\end{aligned} $$</p>
+<p>So
+$$ \begin{aligned}
+&amp; a \cos \alpha+b \sin \alpha=c
+\end{aligned} $$</p>
+<p>Solve the equation to get
+$$ \begin{aligned}
+&amp; \alpha=2 \arctan \left(\frac{b \pm \sqrt{a^2+b^2-c^2}}{a+c}\right)
+\end{aligned} $$</p>
+<p>Brought into the formula
+$$ \begin{aligned}
+&amp; \overrightarrow{O E}=(x ,y)=\left(L_1 \cos \alpha+\left(L_3+L_6\right) \cos \theta L_7 \sin \alpha+\left(L_3+L_6\right) \sin \theta\right)
+\end{aligned} $$</p>
+<p>Solve the equation to get
+$$ \begin{aligned}
+&amp; \cos \theta=\frac{x-L_1 \cos \alpha}{L_3+L_6}
+\end{aligned} $$</p>
+<p>$$ \begin{aligned}
+&amp; \sin \theta=\frac{y-L_1 \sin \alpha}{L_3+L_6}
+\end{aligned} $$</p>
+<p>So
+$$ \begin{aligned}
+&amp; \overrightarrow{B E}=\left(L_6 \cos \theta, L_6 \sin \theta\right)
+\end{aligned} $$</p>
+<p>Given that
+$$ \begin{aligned}
+&amp; \overrightarrow{OB}=\overrightarrow{OE}+\overrightarrow{E B}
+\end{aligned} $$</p>
+<p>We can know
+$$ \begin{aligned}
+\overrightarrow{OB}=(\mathrm{x}-\mathrm{L}_6 \cos \theta, \mathrm{y}-\mathrm{L}_6 \sin \theta)=(\mathrm{x}_b, \mathrm{y}_b)
+\end{aligned} $$</p>
+<p>Given that
+$$ \begin{aligned}
+&amp; \overrightarrow{C B}=\left(-L_4 \cos \gamma, L_4 \sin \gamma\right)
+\end{aligned} $$</p>
+<p>$$ \begin{aligned}
+&amp; \overrightarrow{O B}=\overrightarrow{O C}+\overrightarrow{C B}
+\end{aligned} $$</p>
+<p>$$\begin{aligned}
+&amp; \mathrm{x}_{\mathrm{b}}=\mathrm{L}_5+\mathrm{L}_2 \cos \beta-\mathrm{L}_4 \cos \gamma
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+&amp; \mathrm{y}_{\mathrm{b}}=\mathrm{L}_2 \sin \beta+\mathrm{L}_4 \sin \gamma
+\end{aligned}$$</p>
 <h6 id="kinematic-analysis">Kinematic analysis</h6>
 <h6 id="gait-design">Gait design</h6>
 <hr>
