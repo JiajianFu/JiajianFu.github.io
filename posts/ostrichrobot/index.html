@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/"
-        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  2568 ,
+        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  3728 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/","datePublished": "2023-07-13T16:15:21+08:00","dateModified": "2023-07-13T16:15:21+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜Bionic Ostrich Robot</h1><h2 class="single-subtitle">This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is National second prize winning works of the 10th National College Students Mechanical Innovation Design Competition.The funny thing is, it all started with an idea I had in the shower......</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/robotics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Robotics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2568 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;13 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;3728 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;18 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -126,7 +126,11 @@
         <li></li>
       </ul>
     </li>
-    <li><a href="#stress-analysis">Stress Analysis</a></li>
+    <li><a href="#simulation-analysis">Simulation Analysis</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
     <li><a href="#material-and-process-selection">Material and Process Selection</a>
       <ul>
         <li></li>
@@ -234,7 +238,7 @@
 </figure>
 </p>
 <h4 id="mechanical-model-analysis">Mechanical Model Analysis</h4>
-<p>For the main structure of the legs, a simplified mathematical model of the closed-chain five-bar mechanism is established and placed on a plane Cartesian coordinate system, as shown in the left figure. The lengths of OA, CD, AB, BC, OD, and BE are L1, L2, L3, L4, L5, and L6, respectively. O and D points are driving. The overall structure can be regarded as an inverted pendulum structure, as shown in the right figure</p>
+<p>For the main structure of the legs, a simplified mathematical model of the closed-chain five-bar mechanism is established and placed on a plane Cartesian coordinate system, as shown in the left figure. The lengths of OA, CD, AB, BC, OD, and BE are $L_1$, $L_2$, $L_3$, $L_4$, $L_5$, and $L_6$, respectively. $O$ and $D$ points are driving. The overall structure can be regarded as an inverted pendulum structure, as shown in the right figure</p>
 <figure><img src="/images/Ostrich/mathmodel.png"/><figcaption>
             <h4>Simplified mathematical model schematic</h4>
         </figcaption>
@@ -406,10 +410,169 @@ $$\begin{aligned}
 <p>$$\begin{aligned}
 &amp; \mathrm{y}_{\mathrm{b}}=\mathrm{L}_2 \sin \beta+\mathrm{L}_4 \sin \gamma
 \end{aligned}$$</p>
+<p>Eliminate $\gamma$ to get
+$$\begin{aligned}
+2 L_2\left(x_b-L_5\right) \cos \beta+2 L_2 y_b \sin \beta=\left(x_b-L_5\right)^2+L_2{ }^2+y_b{ }^2-L_4{ }^2
+\end{aligned}$$</p>
+<p>Let
+$$\begin{aligned}
+d=2 L_2\left(x_b-L_5\right)
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+e=2 L_2 y_b
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+f=\left(x_b-L_5\right)^2+L_2{ }^2+y_b{ }^2-L_4{ }^2
+\end{aligned}$$</p>
+<p>So that
+$$\begin{aligned}
+d \cos \beta+e \sin \beta=f
+\end{aligned}$$</p>
+<p>Solve the equation to get
+$$\begin{aligned}
+\beta=2 \arctan \left(\frac{e \pm \sqrt{d^2+e^2-f^2}}{d+f}\right)
+\end{aligned}$$</p>
+<p>In summary
+$$\begin{aligned}
+\alpha=2 \arctan \left(\frac{b \pm \sqrt{a^2+b^2-c^2}}{a+c}\right)
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+\beta=2 \arctan \left(\frac{\left.e \pm \sqrt{d^2+e^2-f^2}\right)}{d+f}\right)
+\end{aligned}$$</p>
+<p>Therefore, the constraint reaction force of the force acting at E (set as F) on the robot leg end (O and D) can be expressed as</p>
+<p>$$\begin{aligned}
+M_O=\left(\left(\mathrm{L}_3+\mathrm{L}_6\right) \cos \theta+\mathrm{L}_1 \cos \alpha\right) F
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+M_D=\left(\left(\mathrm{L}_3+\mathrm{L}_6\right) \cos \theta+\mathrm{L}_1 \cos \alpha-\mathrm{L}_5\right) F
+\end{aligned}$$</p>
+<ol start="2">
+<li>Inverted pendulum mechanism</li>
+</ol>
+<p>Consider a <strong>three-dimensional linear inverted pendulum model</strong> moving in three-dimensional Cartesian space, which rotates around point $O$, and the center of mass can move within a virtual constrained planar motion. The plane where $xy$ is located is the horizontal ground, the z-axis is vertical upwards, and is perpendicular to the ground, and we specify the positive direction of $x$ as the forward direction of the robot.</p>
+<p>The constraint plane can be expressed using the normal vector of the plane as</p>
+<p>$$\begin{aligned}
+\left(k_x, k_y-1\right)
+\end{aligned}$$</p>
+<p>and the intersection of the z-axis with this plane is $Z_c$. Then for the constraint plane:
+$$\begin{aligned}
+z=k_x x+k_y y+z_c
+\end{aligned}$$</p>
+<p>If the constraint plane is horizontal, then one has
+$$\begin{aligned}
+k_x=k_y=0
+\end{aligned}$$</p>
+<p>Even for the slope walking process where the constraint plane is not horizontal, we can add additional constraints to the torque to make the dynamic process hold:
+$$\begin{aligned}
+\tau_x x+\tau_y y=0
+\end{aligned}$$</p>
+<p>For the case where the constraint plane is horizontal, the zero moment point (ZMP) is calculated as
+$$\begin{aligned}
+p_x=-\frac{\tau_y}{m g}
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+p_y=\frac{\tau_x}{m g}
+\end{aligned}$$</p>
 <h6 id="kinematic-analysis">Kinematic analysis</h6>
+<p>The robot is composed of a main body and two legs with driving wheels as the ends. It imitates the morphological characteristics of ostrich legs in nature, and is a two-leg planar parallel mechanism. Compared with the series mechanism, the parallel mechanism has the characteristics of compact structure, high rigidity, and strong bearing capacity. As a result, the robot can run faster while overcoming obstacles with greater agility. At the same time, the device has two states of wheel type and step type, which can be transformed into each other during operation.</p>
+<p>The robot is composed of a main body and two legs with driving wheels as the ends. It imitates the morphological characteristics of ostrich legs in nature, and is a two-leg planar parallel mechanism. Compared with the series mechanism, each rotary joint on the parallel robot leg has two translation degrees of freedom along the transverse direction and the longitudinal direction respectively. When the robot is running along the $x$ direction, it can be assumed to be symmetric in the $y$ (lateral) direction. At the same time, the weight of the robot is mainly concentrated on the main structure and wheels.
+Therefore, the robot can be approximated as an <strong>inverted pendulum</strong> on an industrial computer (IPC), and its dynamic equation is</p>
+<p>$$
+\begin{aligned}
+(\mathrm{M}+\mathrm{m}) \ddot{\mathrm{x}}+\mathrm{ml} \cos (\theta) \ddot{\theta}-\mathrm{ml} \sin (\theta) \dot{\theta}^2=\mathrm{u}
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+\mathrm{ml} \cos \ddot{\mathrm{x}}+\mathrm{ml}^2 \ddot{\theta}-\mathrm{mgl} \sin (\theta)=0
+\end{aligned}$$</p>
+<p>Among them, $M$ and $m$ are the point mass concentrated at the tip of the pole and the mass of the trolley, which correspond to the main structure of the robot and the wheel; $l$ is the length of the pendulum, that is, the height of the robot; $θ$ is the pitch angle; displacement in the $x$ direction; $u$ is the force acting on the cart. According to the structural characteristics, it is easy to obtain the relationship between $u$ and the torque applied to the wheel.</p>
+<p>In this robot structure, since the height of the main structure of the robot changes during operation, the length of the pendulum, that is, the height of the robot, is variable.</p>
+<p>In addition, because the dynamic characteristics of the robot in the ground contact stage have a great influence on the overall performance of the robot during the running process of the robot, it is necessary to conduct additional analysis on the dynamic characteristics of the robot in the ground contact stage.</p>
+<p>Let the mass of the upper rod be $m_1$, and the mass of the lower rod be $m_2$, and they are both represented by the point mass at the end of the leg.
+Then, the kinetic energy of the system</p>
+<p>$$\begin{aligned}
+K=K_1+K_2
+\end{aligned}$$</p>
+<p>where $K$ is the total kinetic energy of the system, $K_1$ is the total kinetic energy of the upper leg, and $K_2$ is the total kinetic energy of the lower leg.</p>
+<p>$$\begin{aligned}
+K_1=\frac{1}{2}\left(2 \mathrm{~m}_1+2 \mathrm{~m}_2\right) \mathrm{L}_3{ }^2 \dot{\theta}^2+\frac{1}{2}\left(2 \mathrm{~m}_1+2 \mathrm{~m}_2\right) \mathrm{L}_4{ }^2 \dot{\gamma}^2
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+K_2=\mathrm{m}_2 \mathrm{~L}_2{ }^2(\pi-\beta)^2+\mathrm{m}_2 \mathrm{~L}_1{ }^2 \dot{\alpha}^2
+\end{aligned}$$</p>
+<p>Therefore, the total kinetic energy of the system can be obtained</p>
+<p>$$\begin{aligned}
+K=\frac{1}{2}\left(2 \mathrm{~m}_1+2 \mathrm{~m}_2\right) \mathrm{L}_3{ }^2 \dot{\theta}^2+\frac{1}{2}\left(2 \mathrm{~m}_1+2 \mathrm{~m}_2\right) \mathrm{L}_4{ }^2 \dot{\gamma}^2+K_2=\mathrm{m}_2 \mathrm{~L}_2{ }^2(\pi-\beta)^2+\mathrm{m}_2 \mathrm{~L}_1{ }^2 \dot{\alpha}^2
+\end{aligned}$$</p>
+<p>Potential energy of the system</p>
+<p>$$\begin{aligned}
+E=E_1+E_2
+\end{aligned}$$</p>
+<p>where $E$ is the total potential energy of the system, $E_1$ is the total potential energy of the upper leg, and $E_2$ is the total potential energy of the lower leg.</p>
+<p>$$\begin{aligned}
+E_1=g\left(\mathrm{~m}_1+\mathrm{m}_2\right)\left(\mathrm{L}_3 \sin \theta+\mathrm{L}_4 \sin \gamma\right)
+\end{aligned}$$</p>
+<p>$$\begin{aligned}
+E_2=\mathrm{m}_2 g\left(\mathrm{~L}_1 \sin \alpha+\mathrm{L}_2 \sin (\pi-\beta)\right)
+\end{aligned}$$</p>
+<p>Therefore, the total potential energy of the system can be obtained as</p>
+<p>$$\begin{aligned}
+E=g\left(\mathrm{~m}_1+\mathrm{m}_2\right)\left(\mathrm{L}_3 \sin \theta+\mathrm{L}_4 \sin \gamma\right)+\mathrm{m}_2 g\left(\mathrm{~L}_1 \sin \alpha+\mathrm{L}_2 \sin (\pi-\beta)\right)
+\end{aligned}$$</p>
 <h6 id="gait-design">Gait design</h6>
+<p>Gait is a periodic phenomenon that describes the walking characteristics of animals. It is introduced here to describe the periodic phenomenon during the movement of the robot. Phase difference refers to the difference between the movement lead or lag between different legs. The description of gait mostly uses <strong>gait sequence diagram</strong>.</p>
+<figure><img src="/images/Ostrich/step.png"/><figcaption>
+            <h4>Timing diagram of walking and trotting</h4>
+        </figcaption>
+</figure>
+
+<p>The first half cycle of the robot executes the support phase and the swing phase of the first half cycle according to the program, and adjusts the gait by recognizing the time increase on the basis of the set step frequency adjustment, and makes a state switch. In the same way in the second half cycle, the gait control of the robot can be realized.</p>
 <hr>
-<h2 id="stress-analysis">Stress Analysis</h2>
+<h2 id="simulation-analysis">Simulation Analysis</h2>
+<h4 id="kinematic-analysis-1">Kinematic Analysis</h4>
+<p>Based on the mechanical model established above for the robot leg mechanism, we perform dynamic simulation through ADAMS software, and draw the simulation results in the ADAMS post-processing module. The displacement and velocity simulation analysis is obtained. It can be seen from the figure that the robot&rsquo;s running trajectory and running speed are relatively stable.</p>
+<figure><img src="/images/Ostrich/trajectory1.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/trajectory2.png"/><figcaption>
+            <h4>Simulation diagram of centroid displacement</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/Ostrich/velocity1.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/velocity2.png"/><figcaption>
+            <h4>Center of mass velocity simulation diagram</h4>
+        </figcaption>
+</figure>
+
+<h4 id="stress-analysis">Stress Analysis</h4>
+<p>For the follow-up finite element analysis, based on the mechanical model established above for the robot leg mechanism, we perform dynamic simulation through ADAMS software, and draw the simulation results in the ADAMS post-processing module. The force of several dangerous places was obtained</p>
+<p><figure><img src="/images/Ostrich/adams.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/stress1.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/stress2.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/stress3.png"/><figcaption>
+            <h4>Three directions of force in xyz direction at the hinge of the main body and the leg structure</h4>
+        </figcaption>
+</figure>
+</p>
+<p><figure><img src="/images/Ostrich/adams2.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/stress4.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/stress5.png"/><figcaption>
+            <h4>The force in the xy direction of the hinge of the leg and foot structure</h4>
+        </figcaption>
+</figure>
+</p>
 <hr>
 <h2 id="material-and-process-selection">Material and Process Selection</h2>
 <h4 id="material-selection">Material Selection</h4>
