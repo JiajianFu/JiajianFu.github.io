@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/"
-        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  3728 ,
+        },"genre": "posts","keywords": "Bionic Ostrich Robot","wordcount":  5663 ,
         "url": "https:\/\/jiajianfu.github.io\/posts\/ostrichrobot\/","datePublished": "2023-07-13T16:15:21+08:00","dateModified": "2023-07-13T16:15:21+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Robot Design｜Bionic Ostrich Robot</h1><h2 class="single-subtitle">This is a bionic ostrich robot with a metamorphic mechanism on its legs. It is National second prize winning works of the 10th National College Students Mechanical Innovation Design Competition.The funny thing is, it all started with an idea I had in the shower......</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/robotics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Robotics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;3728 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;18 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-13">2023-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;5663 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;27 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -132,6 +132,29 @@
       </ul>
     </li>
     <li><a href="#material-and-process-selection">Material and Process Selection</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#strength-check">Strength Check</a></li>
+    <li><a href="#control-system-design">Control System Design</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#drivetrain-design">Drivetrain Design</a></li>
+    <li><a href="#control-scheme-design">Control Scheme Design</a></li>
+    <li><a href="#motor-control-design">Motor control design</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#gait-control-design">Gait Control Design</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a>
       <ul>
         <li></li>
       </ul>
@@ -208,11 +231,14 @@
 </table>
 <h6 id="configuration-selection">Configuration selection</h6>
 <p>The main body of the leg of this device adopts a planar parallel five-bar mechanism, as shown in figure below, which consists of a main body and two bar groups. It imitates the morphological characteristics of ostrich legs in nature, and is a two-leg planar parallel mechanism. Compared with the series mechanism, the parallel mechanism has the characteristics of compact structure, high rigidity, and strong bearing capacity, which enables the robot to overcome obstacles more flexibly and move faster.</p>
+<p><figure><img src="/images/Ostrich/IMG_9439.PNG"/>
+</figure>
+
 <figure><img src="/images/Ostrich/5gan.png"/><figcaption>
             <h4>planar parallel five-bar mechanism</h4>
         </figcaption>
 </figure>
-
+</p>
 <p>Each rotary joint of the main structure of the leg of the robot has two translation degrees of freedom along the transverse direction and the longitudinal direction respectively. Assuming that the robot moves in the x direction, it can be assumed to be symmetrical in the y (horizontal) direction. At the same time, the weight of the robot is mainly concentrated on the main structure and wheels.</p>
 <p>The terminal structure of the device can be divided into two states of wheel type and step type, which can be transformed into each other through <strong>a special metamorphic mechanism</strong> during operation.</p>
 <div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1D8411U72J&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
@@ -237,13 +263,18 @@
         </figcaption>
 </figure>
 </p>
+<figure><img src="/images/Ostrich/IMG_9540.PNG"/><figcaption>
+            <h4>Overall picture of the robot</h4>
+        </figcaption>
+</figure>
+
 <h4 id="mechanical-model-analysis">Mechanical Model Analysis</h4>
-<p>For the main structure of the legs, a simplified mathematical model of the closed-chain five-bar mechanism is established and placed on a plane Cartesian coordinate system, as shown in the left figure. The lengths of OA, CD, AB, BC, OD, and BE are $L_1$, $L_2$, $L_3$, $L_4$, $L_5$, and $L_6$, respectively. $O$ and $D$ points are driving. The overall structure can be regarded as an inverted pendulum structure, as shown in the right figure</p>
+<p>For the main structure of the legs, a simplified mathematical model of the closed-chain five-bar mechanism is established and placed on a plane Cartesian coordinate system, as shown in the left figure. The lengths of OA, CD, AB, BC, OD, and BE are $L_1$, $L_2$, $L_3$, $L_4$, $L_5$, and $L_6$, respectively. $O$ and $D$ points are driving. The overall structure can be regarded as an inverted pendulum structure, as shown in the right figure
 <figure><img src="/images/Ostrich/mathmodel.png"/><figcaption>
             <h4>Simplified mathematical model schematic</h4>
         </figcaption>
 </figure>
-
+</p>
 <h6 id="static-analysis">Static analysis</h6>
 <ol>
 <li>Closed chain five-bar mechanism</li>
@@ -576,7 +607,167 @@ E=g\left(\mathrm{~m}_1+\mathrm{m}_2\right)\left(\mathrm{L}_3 \sin \theta+\mathrm
 <hr>
 <h2 id="material-and-process-selection">Material and Process Selection</h2>
 <h4 id="material-selection">Material Selection</h4>
-<h4 id="selection-of-key-member-shape-and-size">Selection of Key Member Shape and Size</h4></div><div class="post-footer" id="post-footer">
+<p>We initially selected the material as carbon fiber plate, and manufactured the parts through CNC process.</p>
+<p>For general materials, the higher the specific strength, the better the performance under a given load. Metal materials such as aluminum are prone to problems such as deformation and dents under high loads, but carbon fiber composite materials are stronger under high loads because of their high specific stiffness and specific strength. Not only the performance advantages are obvious, but the highlight of carbon fiber composites is &ldquo;lightness&rdquo;, its density is only a little more than 1/2 of that of aluminum, which can provide more design space for power sources such as batteries. Longer battery life.</p>
+<p>In addition, from an economic point of view, it seems that carbon fiber raw materials are much more expensive than aluminum alloys, but in specific applications, from raw materials to molding, the processing cost accounts for a larger proportion of the cost. However, through the efforts of many materialists, the price gap between carbon fiber manipulators and traditional aluminum alloy manipulators has been narrowed. At present, the price difference between the two is almost reduced to almost the same.</p>
+<figure><img src="/images/Ostrich/IMG_9546.JPG"/>
+</figure>
+
+<figure><img src="/images/Ostrich/IMG_9547.JPG"/><figcaption>
+            <h4>Robot assembled from carbon fiber parts</h4>
+        </figcaption>
+</figure>
+
+<h2 id="strength-check">Strength Check</h2>
+<p>When the device is in the no-load state, the stress on each part is determined by the weight of the device itself, so the check of the dangerous rod focuses on the stress in the moving state. A dangerous condition is considered reached when the two rods that make up the main structure of the leg are folded close to horizontal. Now select two main rods composed of dangerous rods to make up the leg structure for finite element strength check. After adding loads as described above and performing adams simulation to obtain the force of each joint, use the Simulation module of <strong>SOLIDWORKS</strong> to perform finite element analysis, as shown in the figure below.</p>
+<figure><img src="/images/Ostrich/sim1.png"/><figcaption>
+            <h4>Finite element analysis of main rod 1</h4>
+        </figcaption>
+</figure>
+
+<p>The calculated maximum stress is 11.46MPa. Carbon fiber is selected as the processing material, and the allowable stress meets the strength requirements by consulting the manual.</p>
+<figure><img src="/images/Ostrich/sim2.png"/><figcaption>
+            <h4>Finite element analysis of main rod 2</h4>
+        </figcaption>
+</figure>
+
+<p>The calculated maximum stress is 0.6377MPa. Carbon fiber is selected as the processing material, and the allowable stress meets the strength requirements by consulting the manual.</p>
+<h2 id="control-system-design">Control System Design</h2>
+<h4 id="motor-parameter-calculation-and-selection">Motor Parameter Calculation and Selection</h4>
+<p>Referring to the design of the bionic ostrich leg, after calculation, the motor voltage is 10v and the torque is 10N. After comparison, the motor is determined to be a brushless motor <strong>AS5048 encoder DC pod code disc micro-single motor zoom pan-tilt machine</strong>.</p>
+<figure><img src="/images/Ostrich/motor.png"/><figcaption>
+            <h4>Brushless motor AS5048 encoder DC pod code disc micro-single motor zoom pan-tilt machine</h4>
+        </figcaption>
+</figure>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">parameter</th>
+<th style="text-align:center">unit</th>
+<th style="text-align:center">3510（magnetic ring）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Rated Voltage</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:center">Rated Current</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">0.53</td>
+</tr>
+<tr>
+<td style="text-align:center">Rated Torque</td>
+<td style="text-align:center">N*M</td>
+<td style="text-align:center">0.11</td>
+</tr>
+<tr>
+<td style="text-align:center">Rated Rotational Speed</td>
+<td style="text-align:center">rpm</td>
+<td style="text-align:center">945</td>
+</tr>
+<tr>
+<td style="text-align:center">Maximum Rotational Speed</td>
+<td style="text-align:center">rpm</td>
+<td style="text-align:center">1250</td>
+</tr>
+</tbody>
+</table>
+<h4 id="servo-parameter-calculation-and-selection">Servo Parameter Calculation and Selection</h4>
+<p>After the force analysis according to the overall mechanical structure after 3D modeling, it is determined to add suitable materials and optimize the shape and size of the structural parts, and finally the weight of the entire mechanism is about AKG. Referring to the design of the legs of the bionic ostrich, it was determined that the servo was <strong>SPT5410HV-180/10kg high-voltage and high-speed digital servo</strong>.</p>
+<h2 id="drivetrain-design">Drivetrain Design</h2>
+<p>This device connects the motor to the calf construction and wheel-foot conversion on both sides, and connects the main components of the legs and feet in the form of multi-section levers, so as to drive the device to move back and forth as a whole. On the one hand, the motor at the calf drives the regular back and forth movement of the foot members on both sides, coupled with the adaptability of the foot components to the ground, and then drives the overall movement of the device. On the other hand, the motor at the wheel-foot conversion unit realizes the wheel-foot conversion by controlling the rotation degree of the hinge to rotate the wheel-foot adapter to the desired angle.</p>
+<p>We directly bite the brushless motor and hub to form a direct drive structure. Higher precision and greater pressure resistance.</p>
+<figure><img src="/images/Ostrich/IMG_9433.PNG"/><figcaption>
+            <h4>Drivetrain assembly drawing</h4>
+        </figcaption>
+</figure>
+
+<h2 id="control-scheme-design">Control Scheme Design</h2>
+<p>The control scheme of this device provides the offset angle for MPU6050, the servo realizes PWM control, and under the joint action of remote control, FOC drive board and magnetic encoder, it provides the control scheme of the whole device, and the whole control scheme is designed as follows:</p>
+<figure><img src="/images/Ostrich/controlfig.png"/><figcaption>
+            <h4>Control system diagram</h4>
+        </figcaption>
+</figure>
+
+<h2 id="motor-control-design">Motor control design</h2>
+<h4 id="pcb-design">PCB Design</h4>
+<p>The motor control drive system used in this device uses Esp32 as the main control, the ADC sampling rate is as high as 2M, and the FOC algorithm is used as the core control algorithm. As shown in the picture is the motor drive board.</p>
+<p><figure><img src="/images/Ostrich/pcb1.png"/>
+</figure>
+
+<figure><img src="/images/Ostrich/pcb2.png"/><figcaption>
+            <h4>FOC driver PCB diagram</h4>
+        </figcaption>
+</figure>
+</p>
+<h4 id="foc-control-algorithm">FOC Control Algorithm</h4>
+<p><strong>Control at Low Speeds</strong></p>
+<p>Due to the difference in control principles, brushless ESC can only control the motor to work at high speed, and it is difficult to control at low speed; FOC controllers, on the other hand, do not have this limitation at all, and can be precisely controlled at any speed.</p>
+<p><strong>Motor Commutation</strong></p>
+<p>For the same reason, because the non-inductive ESC cannot feedback the rotor position, it is difficult to realize the commutation of the forward and reverse rotation of the motor; The commutation performance of the FOC driver is extremely excellent, and the forward and reverse switching can be very smooth at the highest speed; In addition, FOC can also perform brake control in the form of energy recovery.</p>
+<p><strong>Torque Control</strong></p>
+<p>Ordinary ESCs can only control the speed of the motor, while FOC can carry out three closed-loop control of current (torque), speed, and position.</p>
+<p><strong>Noises</strong></p>
+<p>The noise of the FOC driver will be much less than that of the ESC, because the ordinary ESC uses a square wave drive, while the FOC is a sine wave. Brushless
+The drive circuit of the motor is mainly realized by using a three-phase inverter circuit:</p>
+<figure><img src="/images/Ostrich/foc.png"/><figcaption>
+            <h4>three-phase inverter circuit</h4>
+        </figcaption>
+</figure>
+
+<h4 id="motor-parameter-acquisition">Motor Parameter Acquisition</h4>
+<p>The idea of the LQR algorithm is adopted:</p>
+<p>$$
+\begin{aligned}
+J=q_{11} \theta^2+q_{22} \omega^2+q_{33} i^2+r U^2
+\end{aligned}
+$$</p>
+<p>Because $\theta$ is divergent, control as feedback is necessarily unstable, using $\Delta\theta$ as a feedback state variable. Since $\theta$ does not converge, the following equation is absolutely satisfied:</p>
+<p>$$
+\begin{aligned}
+&amp; q_{11} \Delta \theta^2+q_{22} \omega^2+q_{33} i^2+r U^2 \leq q_{11} \theta^2+q_{22} \omega^2+q_{33} i^2+r U^2 \
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+&amp; q_{11} \Delta \theta^2+q_{22} \omega^2+q_{33} i^2+r U^2 \leq J .
+\end{aligned}
+$$</p>
+<p>It can be seen from the above equation that $K_1$, $K_2$, and $K_3$ are the feedback coefficients of the state variables $\theta$, $w$, and $i$, respectively, so $K_1$, $K_2$, and $K_3$ must satisfy the state variables $\Delta\theta$, $w$, and $i$ for control.</p>
+<h2 id="gait-control-design">Gait Control Design</h2>
+<p>It mainly adopts the algorithm of ZMP and linear inverted pendulum.</p>
+<h4 id="zmp-algorithm">ZMP Algorithm</h4>
+<p>ZMP is the resultant force point of the ground against the robot calculated under the condition that the robot will not overturn, and when the robot is in dynamic motion (there is acceleration), the ground force is balanced with gravity and inertial force with ZMP as the action point. Since gravity does not change, when the height of the center of mass is unchanged, the position of ZMP (single point support, supporting polygon is a point) corresponds to the acceleration of the center of mass. The support point of the linear inverted pendulum is his ZMP.</p>
+<figure><img src="/images/Ostrich/zmp.png"/><figcaption>
+            <h4>ZMP algorithm</h4>
+        </figcaption>
+</figure>
+
+<h4 id="linear-inverted-pendulum">Linear Inverted Pendulum</h4>
+<p>The problem of linear secondary regulator (LQR) has a very important position in modern control theory and has received widespread attention from the control community. The linear quadratic performance index is easy to analyze, process and calculate, and the inverted pendulum system obtained by the linear quadratic optimal design method has the advantages of good robustness and dynamic characteristics and linear feedback structure, so it has been widely used in the actual design of inverted pendulum control system.</p>
+<p>The input of the inverted pendulum system is the expected value of the displacement (i.e. position) of the bipedal robot and the tilt angle of the pendulum, and the computer collects the actual position signal of the robot and the reference surface from the sensor in each sampling cycle, compares it with the expected value, obtains the control amount through the control algorithm, and then drives the DC motor through digital-to-analog conversion to realize the real-time control of the inverted pendulum.</p>
+<p><strong>The principle of balancing a bipedal velocity ring:</strong></p>
+<p>According to experience, the running speed of the wheel-legged robot is related to the inclination angle of the wheel-legged robot, such as the wheel-legged robot leaning forward, is it the upright ring to accelerate the wheel-legged robot forward, so that the wheel-legged robot maintains balance, at this time the wheel-legged robot does not have speed. If the speed is controlled in a closed loop, then this loop is not a speed loop. If the target of the speed ring is set to 0, the wheel-legged robot can stabilize the balance for a long time.</p>
+<p>However, in the balance car system, which is dominated by upright, the speed control of negative feedback will cause the trolley to accelerate down. Here we represent the control of the speed closed-loop by keeping the wheel leg robot at a certain angle and using the process of balancing the trolley.</p>
+<h2 id="conclusion">Conclusion</h2>
+<h4 id="key-innovations">Key Innovations</h4>
+<p>The innovation points of this device mainly include three innovative mechanisms and control algorithms:</p>
+<p><strong>Parallel five-pole structure</strong></p>
+<p>Since the tandem leg structure has high requirements for the joint drive motor and the control accuracy is difficult to guarantee, we use the closed-chain five-bar mechanism as the bionic leg structure, and the simulation results show that the leg structure can realize the rapid and stable running of the legs of the bionic ostrich, and the joint driving torque is small, which verifies the feasibility and rationality of the leg structure to realize the bionic gait running of the robot.</p>
+<p><strong>Wheel-leg composite structure</strong></p>
+<p>This bionic wheel-foot composite mobile robot combines the high efficiency of the wheeled robot on the flat road surface and the cross-country ability of the foot-type robot on the rough road, and the movement of the wheeled structure can cleverly mimic the ostrich whose toes are about to end the touch, so that the reaction force between it and the ground suddenly increases, resulting in the &ldquo;pedaling force&rdquo;.</p>
+<p><strong>Innovative variable foot mechanism</strong></p>
+<p>The wheel-foot mechanism switches freely through the two cells at the upper and lower dead center in the four stages of the entire trip, switching the movement mode, and a total of ankle joint, rigid grounded standing, electronic suspension, folding storage mechanical structure is ingenious.</p>
+<p><strong>Control algorithm</strong></p>
+<p>Adaptively adjusts left and right leg heights and controls body balance to cope with rapid movement on uneven ground. The LQR algorithm is used with the hub motor to flexibly and stably switch the robot motion state, such as the emergency stop movement during the running process.</p>
+<h4 id="application-prospect">Application Prospect</h4>
+<p>Wheel-legged composite robot is a new type of ground moving system based on wheeled robot by optimizing the wheel design to achieve fast and flexible movement. The main body of the robot is composed of a frame, two spindles, a gear reduction mechanism, and a wheel leg composite mechanism, which is driven by a single motor, and the control system is relatively simple. Compared with ordinary wheeled robots, the robot has a strong ability to cross obstacles, and has a lean structure, small size and light weight. This bionic wheel-foot composite mobile robot combines the high efficiency of wheeled robots on flat roads and the off-road ability of foot-based robots on rough roads, and has broad application scenarios.</p>
+<figure><img src="/images/Ostrich/IMG_9545.PNG"/>
+</figure></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
