@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Course Project｜Ergonomics - Jiajian Fu&#39;s site</title><meta name="Description" content="this is Jiajian Fu&#39;s profile site"><meta property="og:title" content="Course Project｜Ergonomics" />
+<meta property="og:description" content="Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jiajianfu.github.io/posts/ergonomics/" /><meta property="og:image" content="https://jiajianfu.github.io/images/IMG_5646.JPG"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-19T17:43:05+08:00" />
+<meta property="article:modified_time" content="2023-07-19T17:43:05+08:00" /><meta property="og:site_name" content="Jiajian Fu&#39;s profile site" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jiajianfu.github.io/images/IMG_5646.JPG"/>
+
+<meta name="twitter:title" content="Course Project｜Ergonomics"/>
+<meta name="twitter:description" content="Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity."/>
+<meta name="application-name" content="Jiajian Fu&#39;s">
+<meta name="apple-mobile-web-app-title" content="Jiajian Fu&#39;s"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://jiajianfu.github.io/posts/ergonomics/" /><link rel="prev" href="https://jiajianfu.github.io/posts/ostrichrobot/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Course Project｜Ergonomics",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/jiajianfu.github.io\/posts\/ergonomics\/"
+        },"genre": "posts","keywords": "Smart Tower Crane","wordcount":  1250 ,
+        "url": "https:\/\/jiajianfu.github.io\/posts\/ergonomics\/","datePublished": "2023-07-19T17:43:05+08:00","dateModified": "2023-07-19T17:43:05+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jiajian Fu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jiajian Fu&#39;s site">Jiajian Fu&#39;s site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jiajian Fu&#39;s site">Jiajian Fu&#39;s site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Course Project｜Ergonomics</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jiajian Fu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/course-projects/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Course Projects</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-19">2023-07-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1250 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/Ergonomics/cover.png"
+        data-srcset="/images/Ergonomics/cover.png, /images/Ergonomics/cover.png 1.5x, /images/Ergonomics/cover.png 2x"
+        data-sizes="auto"
+        alt="/images/Ergonomics/cover.png"
+        title="/images/Ergonomics/cover.png" /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#course-project-requirements">Course Project Requirements</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#design-inspiration">Design Inspiration</a></li>
+    <li><a href="#joystick-design">Joystick Design</a></li>
+    <li><a href="#console-design">Console Design</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#unity-simulation">Unity Simulation</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#summary">Summary</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity.</p>
+<h2 id="course-project-requirements">Course Project Requirements</h2>
+<h4 id="design-background">Design Background</h4>
+<p>The remote-controlled intelligent construction equipment represented by intelligent tower cranes and aerial building machines has innovatively subverted the traditional &ldquo;worker-construction equipment-construction environment&rdquo; operation mode, transforming workers to operate in real time at high altitude through remote control system, that is, &ldquo;worker-remote control system-intelligent construction equipment-construction environment&rdquo; operation mode.</p>
+<p>As shown in the figure below, it includes the safety monitoring system (used to dynamically monitor the status of the tower crane in real time, anti-collision, remote warning, etc.) and the hook visualization system (used to guide the operation system of the operator, display the surrounding environment of the operation in real time, and assist the operator to correctly judge and operate). The picture comes from the Internet and is for reference only.</p>
+<figure><img src="/images/Ergonomics/worker.png"/><figcaption>
+            <h4>Schematic diagram of the remote control interface of the intelligent tower crane</h4>
+        </figcaption>
+</figure>
+
+<h4 id="project-requirements">Project Requirements</h4>
+<p>According to the functional requirements of the intelligent construction remote operating system, the interface of the intelligent tower crane remote control system is designed with people as a center, including but not limited to functional analysis and functional layout design:</p>
+<ol>
+<li>
+<p>VR simulation of the spatial relationship between the tower crane and the indoor control system;</p>
+</li>
+<li>
+<p>Ergonomic simulation of seats and consoles of indoor control systems;</p>
+</li>
+<li>
+<p>select the input device of the indoor control system;</p>
+</li>
+<li>
+<p>Select the output equipment of the indoor control system;</p>
+</li>
+<li>
+<p>Interactive interface design of indoor control system.</p>
+</li>
+</ol>
+<h2 id="design-inspiration">Design Inspiration</h2>
+<p>Tower cranes are divided into two categories: upper rotary tower cranes and lower rotary tower cranes. Among them, the bearing capacity of the former is higher than that of the latter, and in many construction sites we see is the up-swing type jacking tower crane with joint height. According to whether it can be moved, it is divided into: walking type and fixed type. The fixed tower crane tower body is fixed and does not rotate, installed on a whole concrete foundation, or installed on a strip or X-shaped concrete foundation, and the walking type can be divided into four types: crawler type, automobile type, tire type and track type. In the construction of houses, the fixed type is generally used. According to its luffing mode, it can be divided into two types: horizontal boom trolley luffing and boom luffing; According to its installation form, it can be divided into three types: self-elevating type, integral quick disassembly and assembly. The most widely used are down-swing, quick disassembly, rail-mounted tower cranes and jack-up tower cranes that can be used for four purposes (rail-mounted, fixed, attached and in-climbing).
+This project chose the most common up-swing tower crane in the construction site in life.</p>
+<figure><img src="/images/Ergonomics/crane.png"/><figcaption>
+            <h4>Tower crane</h4>
+        </figcaption>
+</figure>
+
+<p>Tower crane control compartment inspiration: Cockpit in Japanese Mecha Anime: <em>Mobile Suit Gundam SEED</em></p>
+<figure><img src="/images/Ergonomics/gundam1.png"/><figcaption>
+            <h4>Picture of the cockpit panel shown in the anime</h4>
+        </figcaption>
+</figure>
+
+<p>Design feature analysis:</p>
+<ol>
+<li>Comfortable and spacious seat, equipped with pedals, which is conducive to preventing the driver from fatigue of the spine, shoulders and neck caused by long-term driving.</li>
+<li>Multi-screen display system, around the driver&rsquo;s head-up view. It can display video images of all sides of the large mecha, which is conducive to judgment and has high utilization of cockpit space.</li>
+<li>Multi-functional, integrated joystick. The driver does not need to leave the joystick when operating different functions.</li>
+<li>Highly integrated electronic instrument system for drivers to quickly obtain the required data.</li>
+</ol>
+<figure><img src="/images/Ergonomics/gundam2.png"/><figcaption>
+            <h4>Design drawing of the cockpit</h4>
+        </figcaption>
+</figure>
+
+<h2 id="joystick-design">Joystick Design</h2>
+<p>I have completely designed a set of joysticks to help make it easier to operate the tower crane system.</p>
+<figure><img src="/images/Ergonomics/handle1.png"/><figcaption>
+            <h4>A 3D model of the joystick</h4>
+        </figcaption>
+</figure>
+
+<p>Including trigger pitch, trigger roll and dial wheel three shafts,
+Corresponds to the three degrees of freedom of the tower crane.</p>
+<figure><img src="/images/Ergonomics/handle2.png"/><figcaption>
+            <h4>Joystick degree of freedom display</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/Ergonomics/craneunity.png"/><figcaption>
+            <h4>The joystick degrees of freedom correspond to the tower crane display</h4>
+        </figcaption>
+</figure>
+
+<p>There is a tower crane emergency stop button on the top, which is recessed to prevent false touch.</p>
+<h2 id="console-design">Console Design</h2>
+<p>Multiple large displays are presented in front of the crane driver, and the position of the crane can be judged according to the information obtained from different perspectives. Helps drivers complete tasks with concentration and efficiency.</p>
+<figure><img src="/images/Ergonomics/chair.png"/>
+</figure>
+
+<figure><img src="/images/Ergonomics/chair2.png"/><figcaption>
+            <h4>Unity model of the console</h4>
+        </figcaption>
+</figure>
+
+<h4 id="traditional-camera">Traditional Camera</h4>
+<p>Considering that crane drivers may have traditional crane driving experience, the largest screen is used to show the traditional driving perspective. The camera uses a 100° wide-angle lens to simulate the human eye.</p>
+<figure><img src="/images/Ergonomics/screen1.png"/><figcaption>
+            <h4>Operation screen of the Traditional Camera</h4>
+        </figcaption>
+</figure>
+
+<p>Traditional Camera enables crane drivers to quickly adapt to this driving style with experience.</p>
+<figure><img src="/images/Ergonomics/scene1.png"/><figcaption>
+            <h4>Location diagram of the Traditional Camera</h4>
+        </figcaption>
+</figure>
+
+<h4 id="fpv-camera">FPV Camera</h4>
+<p>Fpv Camera is installed at the tower crane trolley to transmit back the first-person view view. The screen set under the console is
+<figure><img src="/images/Ergonomics/fpvscreen.png"/><figcaption>
+            <h4>Operation screen of the FPV Camera</h4>
+        </figcaption>
+</figure>
+</p>
+<p>FPV Camera enables crane operators to intuitively and precisely align loads.</p>
+<figure><img src="/images/Ergonomics/fpvscene.png"/><figcaption>
+            <h4>Location diagram of the FPV Camera</h4>
+        </figcaption>
+</figure>
+
+<h4 id="general-camera">General Camera</h4>
+<p>General Camera can capture the entire picture of the tower crane, installed in adjacent high-rise buildings or aerial drones (mobile camera position can be controlled by keyboard)</p>
+<figure><img src="/images/Ergonomics/generalscreen.png"/><figcaption>
+            <h4>Operation screen of the General Camera</h4>
+        </figcaption>
+</figure>
+
+<p>General Camera can avoid accidents caused by collisions between tower cranes and other obstacles, and can observe the overall situation of tower cranes. The frequency in use will be relatively low, so it is displayed on the right side of the console.</p>
+<figure><img src="/images/Ergonomics/generalscene.png"/><figcaption>
+            <h4>Location diagram of the General Camera</h4>
+        </figcaption>
+</figure>
+
+<h2 id="unity-simulation">Unity Simulation</h2>
+<h4 id="a-method-for-implementing-a-screen-to-display-camera-footage">A method for Implementing a Screen to Display Camera Footage</h4>
+<p>Create cameras and render render camera images to render and output to Render</p>
+<figure><img src="/images/Ergonomics/unity1.png"/>
+</figure>
+
+<figure><img src="/images/Ergonomics/unity2.png"/>
+</figure>
+
+<p>Create a plane in front of the display that is the same size as the screen, attach the render to its surface, and achieve the effect of displaying the live picture of the camera</p>
+<figure><img src="/images/Ergonomics/unity3.png"/>
+</figure>
+
+<h4 id="preparation-before-the-realization-of-the-motion">Preparation Before the Realization of the Motion</h4>
+<figure><img src="/images/Ergonomics/unity4.png"/>
+</figure>
+
+<p>Using empty objects, changing the position of their center of gravity through a hierarchical relationship facilitates subsequent operations</p>
+<figure><img src="/images/Ergonomics/unity6.png"/>
+</figure>
+
+<h4 id="implement-motion-control-using-unity-c-code">Implement Motion Control Using Unity C# Code</h4>
+<h6 id="hook-telescopic-control">Hook Telescopic Control</h6>
+<p>Controls the scaling of the hook model in the y direction to achieve elongation and shortening</p>
+<figure><img src="/images/Ergonomics/code1.png"/>
+</figure>
+
+<h6 id="hook-rotation-control">Hook Rotation Control</h6>
+<p>Taking the joystick as an example, the function is called to change its angle in all directions when the key is pressed. Note: <strong>Choose the object&rsquo;s own coordinate system</strong>.</p>
+<figure><img src="/images/Ergonomics/code2.png"/>
+</figure>
+
+<h6 id="hook-slide-control">Hook Slide Control</h6>
+<p>In the case of a movable camera, a function is called when a key is pressed to give velocity to the object in all directions. Note: <strong>Choose the object&rsquo;s own coordinate system</strong>.</p>
+<figure><img src="/images/Ergonomics/code3.png"/>
+</figure>
+
+<h2 id="summary">Summary</h2>
+<p>Through this ergonomics project, the operation requirements of tower cranes were analyzed in depth, and a simple, efficient and safe remote tower crane operation mode was explored by using ergonomics knowledge. Through the new tool, Unity implemented simulation, and became familiar with Unity&rsquo;s operation and development process.</p>
+<h4 id="improvements-can-be-made">Improvements Can Be Made:</h4>
+<p>The Unity simulation interface is not aesthetically pleasing, and there is no detailed study of how to add realistic materials, etc., so you should pay attention to it when using it in the future.</p>
+<p>The telescopic hook is cleverly used to control the overall model telescopic, in fact, the tower crane trolley and the hook will be telescopic, and there is an obvious gang. After that, you can consider studying the use of rope modules to improve it.</p>
+<p>There is no limit to the control of the joystick, and the joystick will rotate without limit. The joystick will be molded with the seat. The reason is that there is not enough understanding of C# to achieve the limitation of rotation angle.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-07-19</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://jiajianfu.github.io/posts/ergonomics/" data-title="Course Project｜Ergonomics" data-via="@JiajianFu" data-hashtags="Smart Tower Crane"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://jiajianfu.github.io/posts/ergonomics/" data-title="Course Project｜Ergonomics" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://jiajianfu.github.io/posts/ergonomics/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://jiajianfu.github.io/posts/ergonomics/" data-title="Course Project｜Ergonomics"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://jiajianfu.github.io/posts/ergonomics/" data-title="Course Project｜Ergonomics" data-image="/images/Ergonomics/cover.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/smart-tower-crane/">Smart Tower Crane</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/ostrichrobot/" class="prev" rel="prev" title="Robot Design｜Bionic Ostrich Robot"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Robot Design｜Bionic Ostrich Robot</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.115.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jiajian Fu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

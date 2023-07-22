@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Course Projects - Category - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/categories/course-projects/</link>
+        <description>Course Projects - Category - Jiajian Fu&#39;s site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Wed, 19 Jul 2023 17:43:05 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/course-projects/" rel="self" type="application/rss+xml" /><item>
+    <title>Course Project｜Ergonomics</title>
+    <link>https://jiajianfu.github.io/posts/ergonomics/</link>
+    <pubDate>Wed, 19 Jul 2023 17:43:05 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/ergonomics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Ergonomics/cover.png" referrerpolicy="no-referrer">
+            </div><p>Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity.</p>]]></description>
+</item>
+</channel>
+</rss>
