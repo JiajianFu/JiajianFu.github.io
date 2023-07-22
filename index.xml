@@ -4,9 +4,19 @@
         <link>https://jiajianfu.github.io/</link>
         <description>this is Jiajian Fu&#39;s profile site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Wed, 19 Jul 2023 17:43:05 &#43;0800</lastBuildDate>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 20 Jul 2023 08:52:19 &#43;0800</lastBuildDate>
             <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Art Design｜Vacuum Flourescent Display</title>
+    <link>https://jiajianfu.github.io/posts/vfd/</link>
+    <pubDate>Thu, 20 Jul 2023 08:52:19 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/vfd/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/VFD/cover.png" referrerpolicy="no-referrer">
+            </div><p>Merging engineering and art has always been my dream. Using my engineering experience in robot design and manufacturing, I designed a clock that was displayed using a vacuum fluorescent display（VFD）tube</p>]]></description>
+</item>
+<item>
     <title>Course Project｜Ergonomics</title>
     <link>https://jiajianfu.github.io/posts/ergonomics/</link>
     <pubDate>Wed, 19 Jul 2023 17:43:05 &#43;0800</pubDate>
