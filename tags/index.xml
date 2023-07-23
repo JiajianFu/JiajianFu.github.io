@@ -5,6 +5,14 @@
         <description>Tags - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 20 Jul 2023 08:52:19 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Electronic Design</title>
+    <link>https://jiajianfu.github.io/tags/electronic-design/</link>
+    <pubDate>Thu, 20 Jul 2023 08:52:19 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/electronic-design/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>SLA 3D Printing</title>
     <link>https://jiajianfu.github.io/tags/sla-3d-printing/</link>
     <pubDate>Thu, 20 Jul 2023 08:52:19 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/mx_4-standard-4/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>MX_5 Standard 5</title>
-    <link>https://jiajianfu.github.io/tags/mx_5-standard-5/</link>
-    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/mx_5-standard-5/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
