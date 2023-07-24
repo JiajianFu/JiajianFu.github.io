@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Jiajian Fu&#39;s site</title>
-        <link>https://jiajianfu.github.io/posts/</link>
-        <description>All Posts | Jiajian Fu&#39;s site</description>
+        <title>RoboMaster - Tag - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/tags/robomaster/</link>
+        <description>RoboMaster - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/robomaster/" rel="self" type="application/rss+xml" /><item>
     <title>Course Project｜Manufacturing</title>
     <link>https://jiajianfu.github.io/posts/manufacturing/</link>
     <pubDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</pubDate>
@@ -13,36 +13,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/Manufacturing/cover.png" referrerpolicy="no-referrer">
             </div><p>Introduction to Manufacturing course projects. Our team designed a gear system suitable for the RoboMaster competition through material selection, processing technology selection, structural design simulation, strength verification and sustainability analysis.</p>]]></description>
-</item>
-<item>
-    <title>Art Design｜Vacuum Flourescent Display</title>
-    <link>https://jiajianfu.github.io/posts/vfd/</link>
-    <pubDate>Sun, 23 Jul 2023 08:52:19 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/vfd/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/VFD/cover.png" referrerpolicy="no-referrer">
-            </div><p>Merging engineering and art has always been my dream. Using my engineering experience in robot design and manufacturing, I designed a clock that was displayed using a vacuum fluorescent display（VFD）tube</p>]]></description>
-</item>
-<item>
-    <title>Course Project｜Ergonomics</title>
-    <link>https://jiajianfu.github.io/posts/ergonomics/</link>
-    <pubDate>Sat, 22 Jul 2023 17:43:05 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/ergonomics/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Ergonomics/cover.png" referrerpolicy="no-referrer">
-            </div><p>Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity.</p>]]></description>
-</item>
-<item>
-    <title>Robot Design｜Bionic Ostrich Robot</title>
-    <link>https://jiajianfu.github.io/posts/ostrichrobot/</link>
-    <pubDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/ostrichrobot/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Ostrich/ostrichcover.png" referrerpolicy="no-referrer">
-            </div><p>It is <strong>National second prize</strong> winning works of <em>the 10th National College Students Mechanical Innovation Design Competition</em>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
 </item>
 <item>
     <title>Robot Design｜MX_2 Engineer</title>
