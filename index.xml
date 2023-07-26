@@ -4,9 +4,19 @@
         <link>https://jiajianfu.github.io/</link>
         <description>this is Jiajian Fu&#39;s profile site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</lastBuildDate>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</lastBuildDate>
             <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Publiction｜A Review of Metal-to-Plastic Joinery in Automotive Manufacturing</title>
+    <link>https://jiajianfu.github.io/posts/joinery/</link>
+    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/joinery/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Joinery/cover.png" referrerpolicy="no-referrer">
+            </div><p>This post will introduce the paper I participated in the research project about the joining of plastic and metal parts in the automotive industry.I studied more than 100 related documents, and formed a group led by the <strong>first author</strong> and <strong>corresponding author</strong>.</p>]]></description>
+</item>
+<item>
     <title>Course Project｜Manufacturing</title>
     <link>https://jiajianfu.github.io/posts/manufacturing/</link>
     <pubDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</pubDate>
