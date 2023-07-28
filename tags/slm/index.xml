@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SLM - Tag - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/tags/slm/</link>
+        <description>SLM - Tag - Jiajian Fu&#39;s site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/slm/" rel="self" type="application/rss+xml" /><item>
+    <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
+    <link>https://jiajianfu.github.io/posts/topo/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/topo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/topo/cover.png" referrerpolicy="no-referrer">
+            </div><p>Out of interest, I joined my manufacturing course teacher <a href="https://www.researchgate.net/profile/Kun-Li-104" target="_blank" rel="noopener noreffer ">Kun Li</a>&rsquo;s laboratory (HπAM of <a href="http://english.cqu.edu.cn/info/1201/1705.htm" target="_blank" rel="noopener noreffer ">State Key Laboratory of Mechanical Transmission in Chongqing University</a>) to learn about engineering analysis of additive manufacturing, mainly focusing on shape memory alloys and multi-objective based Optimal Thermal-Mechanical Coupling Structure Topology Design</p>]]></description>
+</item>
+</channel>
+</rss>

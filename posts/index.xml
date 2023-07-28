@@ -4,7 +4,17 @@
         <link>https://jiajianfu.github.io/posts/</link>
         <description>All Posts | Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
+    <link>https://jiajianfu.github.io/posts/topo/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/topo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/topo/cover.png" referrerpolicy="no-referrer">
+            </div><p>Out of interest, I joined my manufacturing course teacher <a href="https://www.researchgate.net/profile/Kun-Li-104" target="_blank" rel="noopener noreffer ">Kun Li</a>&rsquo;s laboratory (HπAM of <a href="http://english.cqu.edu.cn/info/1201/1705.htm" target="_blank" rel="noopener noreffer ">State Key Laboratory of Mechanical Transmission in Chongqing University</a>) to learn about engineering analysis of additive manufacturing, mainly focusing on shape memory alloys and multi-objective based Optimal Thermal-Mechanical Coupling Structure Topology Design</p>]]></description>
+</item>
+<item>
     <title>Publication｜A device with thermoelectric power generation and heat dissipation functions and a thermoelectric power generation method</title>
     <link>https://jiajianfu.github.io/posts/patent/</link>
     <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
@@ -12,7 +22,7 @@
     <guid>https://jiajianfu.github.io/posts/patent/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/patent/cover.png" referrerpolicy="no-referrer">
-            </div><p>During my freshman year, I participated in the National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
+            </div><p>During my freshman year, I participated in the <a href="http://www.jienengjianpai.org" target="_blank" rel="noopener noreffer ">National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition</a>  Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
 </item>
 <item>
     <title>Publication｜A Review of Metal-to-Plastic Joinery in Automotive Manufacturing</title>
@@ -72,7 +82,7 @@
     <guid>https://jiajianfu.github.io/posts/ostrichrobot/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/Ostrich/ostrichcover.png" referrerpolicy="no-referrer">
-            </div><p>It is <strong>National second prize</strong> winning works of <em>the 10th National College Students Mechanical Innovation Design Competition</em>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
+            </div><p>It is <strong>National second prize</strong> winning works of <a href="http://umic.ckcest.cn/home/index" target="_blank" rel="noopener noreffer ">the 10th National College Students Mechanical Innovation Design Competition</a>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
 </item>
 <item>
     <title>Robot Design｜MX_2 Engineer</title>
@@ -93,16 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
             </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
-</item>
-<item>
-    <title>MechaX｜Robots Overview</title>
-    <link>https://jiajianfu.github.io/posts/first_post/</link>
-    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/first_post/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
-            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
 </item>
 </channel>
 </rss>

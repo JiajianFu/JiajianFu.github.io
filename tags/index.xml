@@ -4,7 +4,31 @@
         <link>https://jiajianfu.github.io/tags/</link>
         <description>Tags - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>MATLAB</title>
+    <link>https://jiajianfu.github.io/tags/matlab/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/matlab/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SLM</title>
+    <link>https://jiajianfu.github.io/tags/slm/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/slm/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Topology Optimization</title>
+    <link>https://jiajianfu.github.io/tags/topology-optimization/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/topology-optimization/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Heat Exchanger</title>
     <link>https://jiajianfu.github.io/tags/heat-exchanger/</link>
     <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
@@ -58,30 +82,6 @@
     <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/welding/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>MX_1 Hero</title>
-    <link>https://jiajianfu.github.io/tags/mx_1-hero/</link>
-    <pubDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/mx_1-hero/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>RoboMaster</title>
-    <link>https://jiajianfu.github.io/tags/robomaster/</link>
-    <pubDate>Sun, 23 Jul 2023 13:42:30 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/robomaster/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>CAD</title>
-    <link>https://jiajianfu.github.io/tags/cad/</link>
-    <pubDate>Sun, 23 Jul 2023 08:52:19 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/cad/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
