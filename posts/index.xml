@@ -4,7 +4,20 @@
         <link>https://jiajianfu.github.io/posts/</link>
         <description>All Posts | Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 17:36:44 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>🔝Hello, I&#39;m Jiajian(Jain)Fu</title>
+    <link>https://jiajianfu.github.io/posts/cv/</link>
+    <pubDate>Fri, 28 Jul 2023 17:36:44 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/cv/</guid>
+    <description><![CDATA[Mr. Jiajian Fu Phone: +86 13212786288
+Email: jiajianfu@cqu.edu.cn
+Professional Summary Extensive hands-on experiences with structure design / robot control / 3D printing Possess team project management ability, leadership experience of the robot competition team Attend multi-disciplinary related professional courses, master multiple skills to complete engineering projects Education Bachelor of Science, Robotics Engineering	Sep. 2020-Jun. 2024
+National Elite Institute of Engineering, Chongqing University
+Expected GPA: 3.5/4.0
+Project Experience 6-DOF Parallel Robot and Its Working Method (Patent pending) Apr.]]></description>
+</item>
+<item>
     <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
     <link>https://jiajianfu.github.io/posts/topo/</link>
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
@@ -93,16 +106,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
             </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
-</item>
-<item>
-    <title>MechaX｜About Us</title>
-    <link>https://jiajianfu.github.io/posts/second_post/</link>
-    <pubDate>Fri, 07 Jul 2023 15:38:28 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/second_post/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
-            </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
 </item>
 </channel>
 </rss>
