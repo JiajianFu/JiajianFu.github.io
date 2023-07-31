@@ -5,6 +5,16 @@
         <description>Robotics - Category - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/robotics/" rel="self" type="application/rss+xml" /><item>
+    <title>MechaX｜Robots Overview</title>
+    <link>https://jiajianfu.github.io/posts/first_post/</link>
+    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/first_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
+            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
+</item>
+<item>
     <title>Robot Design｜Bionic Ostrich Robot</title>
     <link>https://jiajianfu.github.io/posts/ostrichrobot/</link>
     <pubDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</pubDate>
@@ -33,16 +43,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
             </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
-</item>
-<item>
-    <title>MechaX｜Robots Overview</title>
-    <link>https://jiajianfu.github.io/posts/first_post/</link>
-    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/first_post/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
-            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
 </item>
 </channel>
 </rss>

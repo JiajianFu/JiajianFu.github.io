@@ -5,16 +5,6 @@
         <description>MX_2 Engineer - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/mx_2-engineer/" rel="self" type="application/rss+xml" /><item>
-    <title>Robot Design｜MX_2 Engineer</title>
-    <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
-    <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
-            </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
-</item>
-<item>
     <title>MechaX｜Robots Overview</title>
     <link>https://jiajianfu.github.io/posts/first_post/</link>
     <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
@@ -23,6 +13,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
             </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
+</item>
+<item>
+    <title>Robot Design｜MX_2 Engineer</title>
+    <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
+    <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
+            </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
 </item>
 </channel>
 </rss>

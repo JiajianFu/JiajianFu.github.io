@@ -7,12 +7,32 @@
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate>
             <atom:link href="https://jiajianfu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>📌README｜Hello👋, I&#39;m Jiajian(Jain)Fu</title>
+    <title>Jiajian CV｜Hello👋, I&#39;m Jiajian Fu</title>
     <link>https://jiajianfu.github.io/posts/cv/</link>
     <pubDate>Mon, 03 Jul 2023 17:36:44 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/cv/</guid>
     <description><![CDATA[<p>This is a pinned post with my CV</p>]]></description>
+</item>
+<item>
+    <title>MechaX｜Robots Overview</title>
+    <link>https://jiajianfu.github.io/posts/first_post/</link>
+    <pubDate>Tue, 04 Jul 2023 16:55:03 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/first_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MechaX2023Robots/mechaxcover.png" referrerpolicy="no-referrer">
+            </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
+</item>
+<item>
+    <title>Robot Design｜Bionic Ostrich Robot</title>
+    <link>https://jiajianfu.github.io/posts/ostrichrobot/</link>
+    <pubDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/ostrichrobot/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Ostrich/ostrichcover.png" referrerpolicy="no-referrer">
+            </div><p>It is <strong>National second prize</strong> winning works of <a href="http://umic.ckcest.cn/home/index" target="_blank" rel="noopener noreffer ">the 10th National College Students Mechanical Innovation Design Competition</a>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
 </item>
 <item>
     <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
@@ -83,26 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/clock/cover.png" referrerpolicy="no-referrer">
             </div><p>Merging engineering and art has always been my dream. Using my engineering experience in manufacturing, I designed a necklace in SOLIDWORKS using old Seiko mechanical watch movements, gemstones, Ag925 silver necklace and SLA and SLM 3D printed parts</p>]]></description>
-</item>
-<item>
-    <title>Robot Design｜Bionic Ostrich Robot</title>
-    <link>https://jiajianfu.github.io/posts/ostrichrobot/</link>
-    <pubDate>Thu, 13 Jul 2023 16:15:21 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/ostrichrobot/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Ostrich/ostrichcover.png" referrerpolicy="no-referrer">
-            </div><p>It is <strong>National second prize</strong> winning works of <a href="http://umic.ckcest.cn/home/index" target="_blank" rel="noopener noreffer ">the 10th National College Students Mechanical Innovation Design Competition</a>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
-</item>
-<item>
-    <title>Robot Design｜MX_2 Engineer</title>
-    <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
-    <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
-            </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
 </item>
 </channel>
 </rss>
