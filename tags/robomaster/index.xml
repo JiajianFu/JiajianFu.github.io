@@ -15,16 +15,6 @@
             </div><p>The display and introduction of all the Robots of the MechaX in the 2023 season</p>]]></description>
 </item>
 <item>
-    <title>Course Project｜Manufacturing</title>
-    <link>https://jiajianfu.github.io/posts/manufacturing/</link>
-    <pubDate>Mon, 24 Jul 2023 13:42:30 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/manufacturing/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Manufacturing/cover.png" referrerpolicy="no-referrer">
-            </div><p>Introduction to Manufacturing course projects. Our team designed a gear system suitable for the RoboMaster competition through material selection, processing technology selection, structural design simulation, strength verification and sustainability analysis.</p>]]></description>
-</item>
-<item>
     <title>Robot Design｜MX_2 Engineer</title>
     <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
     <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
@@ -43,6 +33,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
             </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
+</item>
+<item>
+    <title>Course Project｜Manufacturing</title>
+    <link>https://jiajianfu.github.io/posts/manufacturing/</link>
+    <pubDate>Mon, 24 Jul 2023 13:42:30 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/manufacturing/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Manufacturing/cover.png" referrerpolicy="no-referrer">
+            </div><p>Introduction to Manufacturing course projects. Our team designed a gear system suitable for the RoboMaster competition through material selection, processing technology selection, structural design simulation, strength verification and sustainability analysis.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -35,6 +35,36 @@
             </div><p>It is <strong>National second prize</strong> winning works of <a href="http://umic.ckcest.cn/home/index" target="_blank" rel="noopener noreffer ">the 10th National College Students Mechanical Innovation Design Competition</a>.The funny thing is, it all started with an idea I had in the shower&hellip;&hellip;</p>]]></description>
 </item>
 <item>
+    <title>Robot Design｜MX_2 Engineer</title>
+    <link>https://jiajianfu.github.io/posts/mx_2_engineer/</link>
+    <pubDate>Sat, 08 Jul 2023 16:04:05 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/mx_2_engineer/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/MX_2_Engineer/MX_2cover.png" referrerpolicy="no-referrer">
+            </div><p>A comprehensive introduction to MX_2 Engineer from the perspectives of design background, design metrics, mechanical design, hardware design, and software design</p>]]></description>
+</item>
+<item>
+    <title>MechaX｜About Us</title>
+    <link>https://jiajianfu.github.io/posts/second_post/</link>
+    <pubDate>Fri, 07 Jul 2023 15:38:28 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/second_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/second/secondcover.png" referrerpolicy="no-referrer">
+            </div><p>Introduction to team MechaX in Chongqing University</p>]]></description>
+</item>
+<item>
+    <title>Paper Publication｜A Review of Metal-to-Plastic Joinery in Automotive Manufacturing</title>
+    <link>https://jiajianfu.github.io/posts/joinery/</link>
+    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/joinery/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/Joinery/cover.png" referrerpolicy="no-referrer">
+            </div><p>This post will introduce the paper I participated in the research project about the joining of plastic and metal parts in the automotive industry.I studied more than 100 related documents, and formed a group led by the <strong>first author</strong> and <strong>corresponding author</strong>.</p>]]></description>
+</item>
+<item>
     <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
     <link>https://jiajianfu.github.io/posts/topo/</link>
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
@@ -55,16 +85,6 @@
             </div><p>During my freshman year, I participated in the <a href="http://www.jienengjianpai.org" target="_blank" rel="noopener noreffer ">National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition</a>  Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
 </item>
 <item>
-    <title>Paper Publication｜A Review of Metal-to-Plastic Joinery in Automotive Manufacturing</title>
-    <link>https://jiajianfu.github.io/posts/joinery/</link>
-    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/joinery/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Joinery/cover.png" referrerpolicy="no-referrer">
-            </div><p>This post will introduce the paper I participated in the research project about the joining of plastic and metal parts in the automotive industry.I studied more than 100 related documents, and formed a group led by the <strong>first author</strong> and <strong>corresponding author</strong>.</p>]]></description>
-</item>
-<item>
     <title>Course Project｜Manufacturing</title>
     <link>https://jiajianfu.github.io/posts/manufacturing/</link>
     <pubDate>Mon, 24 Jul 2023 13:42:30 &#43;0800</pubDate>
@@ -83,26 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/VFD/cover.png" referrerpolicy="no-referrer">
             </div><p>Merging engineering and art has always been my dream. Using my engineering experience in robot design and manufacturing, I designed a clock that was displayed using a vacuum fluorescent display（VFD）tube</p>]]></description>
-</item>
-<item>
-    <title>Course Project｜Ergonomics</title>
-    <link>https://jiajianfu.github.io/posts/ergonomics/</link>
-    <pubDate>Sat, 22 Jul 2023 17:43:05 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/ergonomics/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/Ergonomics/cover2.png" referrerpolicy="no-referrer">
-            </div><p>Introduction to ergonomics course projects. The operation requirements of tower cranes were analyzed, and a simple, efficient and safe remote tower crane operation mode was designed. Implement simulation with Unity.</p>]]></description>
-</item>
-<item>
-    <title>Art Design｜Gem Clock Necklace</title>
-    <link>https://jiajianfu.github.io/posts/clock/</link>
-    <pubDate>Thu, 20 Jul 2023 08:52:28 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/clock/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/clock/cover.png" referrerpolicy="no-referrer">
-            </div><p>Merging engineering and art has always been my dream. Using my engineering experience in manufacturing, I designed a necklace in SOLIDWORKS using old Seiko mechanical watch movements, gemstones, Ag925 silver necklace and SLA and SLM 3D printed parts</p>]]></description>
 </item>
 </channel>
 </rss>

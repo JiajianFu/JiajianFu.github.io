@@ -5,16 +5,6 @@
         <description>Publictions - Category - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/publictions/" rel="self" type="application/rss+xml" /><item>
-    <title>Patent Publication｜A Device With Thermoelectric Power Generation And Heat Dissipation Functions And A Thermoelectric Power Generation Method</title>
-    <link>https://jiajianfu.github.io/posts/patent/</link>
-    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/patent/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/patent/cover.png" referrerpolicy="no-referrer">
-            </div><p>During my freshman year, I participated in the <a href="http://www.jienengjianpai.org" target="_blank" rel="noopener noreffer ">National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition</a>  Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
-</item>
-<item>
     <title>Paper Publication｜A Review of Metal-to-Plastic Joinery in Automotive Manufacturing</title>
     <link>https://jiajianfu.github.io/posts/joinery/</link>
     <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
@@ -23,6 +13,16 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/Joinery/cover.png" referrerpolicy="no-referrer">
             </div><p>This post will introduce the paper I participated in the research project about the joining of plastic and metal parts in the automotive industry.I studied more than 100 related documents, and formed a group led by the <strong>first author</strong> and <strong>corresponding author</strong>.</p>]]></description>
+</item>
+<item>
+    <title>Patent Publication｜A Device With Thermoelectric Power Generation And Heat Dissipation Functions And A Thermoelectric Power Generation Method</title>
+    <link>https://jiajianfu.github.io/posts/patent/</link>
+    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/patent/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/patent/cover.png" referrerpolicy="no-referrer">
+            </div><p>During my freshman year, I participated in the <a href="http://www.jienengjianpai.org" target="_blank" rel="noopener noreffer ">National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition</a>  Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
 </item>
 </channel>
 </rss>
