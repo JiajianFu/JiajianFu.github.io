@@ -5,6 +5,22 @@
         <description>Tags - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
             <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>FDM</title>
+    <link>https://jiajianfu.github.io/tags/fdm/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/fdm/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Leadership</title>
+    <link>https://jiajianfu.github.io/tags/leadership/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/leadership/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>MATLAB</title>
     <link>https://jiajianfu.github.io/tags/matlab/</link>
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
@@ -26,6 +42,14 @@
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/topology-optimization/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>VORON</title>
+    <link>https://jiajianfu.github.io/tags/voron/</link>
+    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/voron/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -58,30 +82,6 @@
     <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/bolts-and-nuts/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Crimping</title>
-    <link>https://jiajianfu.github.io/tags/crimping/</link>
-    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/crimping/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Rivet</title>
-    <link>https://jiajianfu.github.io/tags/rivet/</link>
-    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/rivet/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Welding</title>
-    <link>https://jiajianfu.github.io/tags/welding/</link>
-    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/welding/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
