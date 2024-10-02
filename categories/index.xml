@@ -3,8 +3,24 @@
         <title>Categories - Category - Jiajian Fu&#39;s site</title>
         <link>https://jiajianfu.github.io/categories/</link>
         <description>Categories - Category - Jiajian Fu&#39;s site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Artworks</title>
+    <link>https://jiajianfu.github.io/categories/artworks/</link>
+    <pubDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/categories/artworks/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>CV</title>
+    <link>https://jiajianfu.github.io/categories/cv/</link>
+    <pubDate>Tue, 01 Oct 2024 21:06:44 -0700</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/categories/cv/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Additive Manufacturing</title>
     <link>https://jiajianfu.github.io/categories/additive-manufacturing/</link>
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
@@ -26,14 +42,6 @@
     <pubDate>Mon, 24 Jul 2023 13:42:30 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/categories/course-projects/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Artworks</title>
-    <link>https://jiajianfu.github.io/categories/artworks/</link>
-    <pubDate>Sun, 23 Jul 2023 08:52:19 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/categories/artworks/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

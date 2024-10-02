@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>CV - Category - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/categories/cv/</link>
+        <description>CV - Category - Jiajian Fu&#39;s site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Tue, 01 Oct 2024 21:06:44 -0700</lastBuildDate><atom:link href="https://jiajianfu.github.io/categories/cv/" rel="self" type="application/rss+xml" /><item>
+    <title>Jiajian CV｜Hello👋, I&#39;m Jiajian Fu</title>
+    <link>https://jiajianfu.github.io/posts/cv/</link>
+    <pubDate>Tue, 01 Oct 2024 21:06:44 -0700</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/cv/</guid>
+    <description><![CDATA[<p>This is a pinned post with my CV</p>]]></description>
+</item>
+</channel>
+</rss>

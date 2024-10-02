@@ -3,8 +3,16 @@
         <title>Tags - Tag - Jiajian Fu&#39;s site</title>
         <link>https://jiajianfu.github.io/tags/</link>
         <description>Tags - Tag - Jiajian Fu&#39;s site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>Jiajian.Fu@qq.com (Jiajian Fu)</managingEditor>
-            <webMaster>Jiajian.Fu@qq.com (Jiajian Fu)</webMaster><lastBuildDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Photography</title>
+    <link>https://jiajianfu.github.io/tags/photography/</link>
+    <pubDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/photography/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>FDM 3D Printing</title>
     <link>https://jiajianfu.github.io/tags/fdm-3d-printing/</link>
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/thermoelectric-power-generation/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Bolts and nuts</title>
-    <link>https://jiajianfu.github.io/tags/bolts-and-nuts/</link>
-    <pubDate>Wed, 26 Jul 2023 11:34:12 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/bolts-and-nuts/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
