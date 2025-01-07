@@ -4,7 +4,7 @@
         <link>https://jiajianfu.github.io/posts/</link>
         <description>All Posts | Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
-            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 06 Jan 2025 17:00:10 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Jiajian CV｜Hello👋, I&#39;m Jiajian Fu</title>
     <link>https://jiajianfu.github.io/posts/cv/</link>
     <pubDate>Tue, 01 Oct 2024 21:06:44 -0700</pubDate>
@@ -63,6 +63,16 @@
             </div><p>This post will introduce the paper I participated in the research project about the joining of plastic and metal parts in the automotive industry.I studied more than 100 related documents, and formed a group led by the <strong>first author</strong> and <strong>corresponding author</strong>.</p>]]></description>
 </item>
 <item>
+    <title>Photography｜Winter Break Road Trip</title>
+    <link>https://jiajianfu.github.io/posts/roadtrip/</link>
+    <pubDate>Mon, 06 Jan 2025 17:00:10 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/roadtrip/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/roadtrip/rtcover.jpg" referrerpolicy="no-referrer">
+            </div><p>On December 15-22, My friends and I went on a road trip, starting from San Diego and passing through Las Vegas, visiting several national parks. I took a lot of landscape photos and designed them into postcard styles.</p>]]></description>
+</item>
+<item>
     <title>Photography｜2024 Miramar air show</title>
     <link>https://jiajianfu.github.io/posts/miramarairshow/</link>
     <pubDate>Wed, 02 Oct 2024 13:08:40 &#43;0800</pubDate>
@@ -92,16 +102,6 @@ Our dedicated laboratory for association activities Some works of our associatio
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/topo/cover.png" referrerpolicy="no-referrer">
             </div><p>Out of interest, I joined my manufacturing course teacher <a href="https://www.researchgate.net/profile/Kun-Li-104" target="_blank" rel="noopener noreffer ">Kun Li</a>&rsquo;s laboratory (HπAM of <a href="http://english.cqu.edu.cn/info/1201/1705.htm" target="_blank" rel="noopener noreffer ">State Key Laboratory of Mechanical Transmission in Chongqing University</a>) to learn about engineering analysis of additive manufacturing, mainly focusing on shape memory alloys and multi-objective based Optimal Thermal-Mechanical Coupling Structure Topology Design</p>]]></description>
-</item>
-<item>
-    <title>Patent Publication｜A Device With Thermoelectric Power Generation And Heat Dissipation Functions And A Thermoelectric Power Generation Method</title>
-    <link>https://jiajianfu.github.io/posts/patent/</link>
-    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/patent/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/patent/cover.png" referrerpolicy="no-referrer">
-            </div><p>During my freshman year, I participated in the <a href="http://www.jienengjianpai.org" target="_blank" rel="noopener noreffer ">National Undergraduate Energy Conservation and Emission Reduction Social Practice and Science and Technology Competition</a>  Project, and was responsible for the 3D model design, rendering and sample production. Won the third prize at the national level and applied for an invention patent</p>]]></description>
 </item>
 </channel>
 </rss>
