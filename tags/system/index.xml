@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>System - Tag - Jiajian Fu&#39;s site</title>
+        <link>https://jiajianfu.github.io/tags/system/</link>
+        <description>System - Tag - Jiajian Fu&#39;s site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 03 Nov 2025 21:44:17 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/system/" rel="self" type="application/rss+xml" /><item>
+    <title>Research Project | ACE-F: A Cross Embodiment Foldable System with Force Feedback for Dexterous Teleoperation</title>
+    <link>https://jiajianfu.github.io/posts/ace-f/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/ace-f/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/ace-f/cover.png" referrerpolicy="no-referrer">
+            </div><p>This post will introduce the paper I participated in the research project about <strong>cross-embodiment teleoperation systems with force feedback</strong>.<br>
+I joined the <strong>ACE-F project</strong> during its early development stage, focusing on both <strong>hardware design</strong> and <strong>experimental validation</strong>.<br>
+As one of the <strong>main contributors</strong>, I helped design the <strong>foldable 3-DoF leader arm</strong>, built the <strong>sensor-less force feedback mechanism</strong>, and took part in <strong>simulation and real-world evaluations</strong>.</p>]]></description>
+</item>
+</channel>
+</rss>

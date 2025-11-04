@@ -4,7 +4,55 @@
         <link>https://jiajianfu.github.io/tags/</link>
         <description>Tags - Tag - Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
-            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 06 Jan 2025 17:00:10 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 03 Nov 2025 21:44:17 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Force Feedback</title>
+    <link>https://jiajianfu.github.io/tags/force-feedback/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/force-feedback/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Robot Hardware</title>
+    <link>https://jiajianfu.github.io/tags/robot-hardware/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/robot-hardware/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>System</title>
+    <link>https://jiajianfu.github.io/tags/system/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/system/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Teleoperation</title>
+    <link>https://jiajianfu.github.io/tags/teleoperation/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/teleoperation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Haptics</title>
+    <link>https://jiajianfu.github.io/tags/haptics/</link>
+    <pubDate>Mon, 06 Jan 2025 19:14:12 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/haptics/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Pneumatic System</title>
+    <link>https://jiajianfu.github.io/tags/pneumatic-system/</link>
+    <pubDate>Mon, 06 Jan 2025 19:14:12 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/tags/pneumatic-system/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Photography</title>
     <link>https://jiajianfu.github.io/tags/photography/</link>
     <pubDate>Mon, 06 Jan 2025 17:00:10 -0800</pubDate>
@@ -34,54 +82,6 @@
     <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/tags/matlab/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>SLM</title>
-    <link>https://jiajianfu.github.io/tags/slm/</link>
-    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/slm/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Topology Optimization</title>
-    <link>https://jiajianfu.github.io/tags/topology-optimization/</link>
-    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/topology-optimization/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VORON</title>
-    <link>https://jiajianfu.github.io/tags/voron/</link>
-    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/voron/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Heat Exchanger</title>
-    <link>https://jiajianfu.github.io/tags/heat-exchanger/</link>
-    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/heat-exchanger/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Patent</title>
-    <link>https://jiajianfu.github.io/tags/patent/</link>
-    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/patent/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Thermoelectric Power Generation</title>
-    <link>https://jiajianfu.github.io/tags/thermoelectric-power-generation/</link>
-    <pubDate>Thu, 27 Jul 2023 11:42:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/tags/thermoelectric-power-generation/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

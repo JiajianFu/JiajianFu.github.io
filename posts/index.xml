@@ -4,13 +4,35 @@
         <link>https://jiajianfu.github.io/posts/</link>
         <description>All Posts | Jiajian Fu&#39;s site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jiajianfu@ucsd.edu (Jiajian Fu)</managingEditor>
-            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 06 Jan 2025 17:00:10 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jiajianfu@ucsd.edu (Jiajian Fu)</webMaster><lastBuildDate>Mon, 03 Nov 2025 21:44:17 -0800</lastBuildDate><atom:link href="https://jiajianfu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Jiajian CV｜Hello👋, I&#39;m Jiajian Fu</title>
     <link>https://jiajianfu.github.io/posts/cv/</link>
-    <pubDate>Tue, 01 Oct 2024 21:06:44 -0700</pubDate>
+    <pubDate>Sat, 01 Nov 2025 21:06:44 -0700</pubDate>
     <author>Jiajian Fu</author>
     <guid>https://jiajianfu.github.io/posts/cv/</guid>
     <description><![CDATA[<p>This is a pinned post with my CV</p>]]></description>
+</item>
+<item>
+    <title>Research Project | ACE-F: A Cross Embodiment Foldable System with Force Feedback for Dexterous Teleoperation</title>
+    <link>https://jiajianfu.github.io/posts/ace-f/</link>
+    <pubDate>Mon, 03 Nov 2025 21:44:17 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/ace-f/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/ace-f/cover.png" referrerpolicy="no-referrer">
+            </div><p>This post will introduce the paper I participated in the research project about <strong>cross-embodiment teleoperation systems with force feedback</strong>.<br>
+I joined the <strong>ACE-F project</strong> during its early development stage, focusing on both <strong>hardware design</strong> and <strong>experimental validation</strong>.<br>
+As one of the <strong>main contributors</strong>, I helped design the <strong>foldable 3-DoF leader arm</strong>, built the <strong>sensor-less force feedback mechanism</strong>, and took part in <strong>simulation and real-world evaluations</strong>.</p>]]></description>
+</item>
+<item>
+    <title>Pneumatic Haptic Sleeve for Guiding Wrist Rehabilitation</title>
+    <link>https://jiajianfu.github.io/posts/mae219/</link>
+    <pubDate>Mon, 06 Jan 2025 19:14:12 -0800</pubDate>
+    <author>Jiajian Fu</author>
+    <guid>https://jiajianfu.github.io/posts/mae219/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/219/cover.jpg" referrerpolicy="no-referrer">
+            </div>]]></description>
 </item>
 <item>
     <title>MechaX｜Robots Overview</title>
@@ -81,27 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/miramarairshow/cover.jpg" referrerpolicy="no-referrer">
             </div><p>On September 27-29, <a href="https://miramarairshow.com/" target="_blank" rel="noopener noreffer ">the Miramar Air Show</a>, the largest military air show is returning as America’s Air Show to provide a unique and special flight line experience with immersive experiences, static displays, and daytime shows that feature military demonstration teams, civilian aerobatic teams, aerial solo acts, vintage aircraft and warbirds.</p>]]></description>
-</item>
-<item>
-    <title>Additive Manufacturing｜Introduction of Student 3D Printing and Additive Manufacturing Association</title>
-    <link>https://jiajianfu.github.io/posts/3dpama/</link>
-    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/3dpama/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/3DP/cover.png" referrerpolicy="no-referrer">
-            </div>The Chongqing University 3D Printing and Additive Manufacturing Association was established in October 2015 and is considered an A-level student organization at the university. We belong to the esteemed College of Mechanical Engineering. Our main focus lies in promoting and advancing the field of 3D printing and additive manufacturing.
-Our dedicated laboratory for association activities Some works of our association Since our inception, we have been actively involved in research and development.]]></description>
-</item>
-<item>
-    <title>Additive Manufacturing｜Topology Design of Thermal-Mechanical Coupling Structure Based on Multi-objective Optimization</title>
-    <link>https://jiajianfu.github.io/posts/topo/</link>
-    <pubDate>Fri, 28 Jul 2023 16:23:29 &#43;0800</pubDate>
-    <author>Jiajian Fu</author>
-    <guid>https://jiajianfu.github.io/posts/topo/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/topo/cover.png" referrerpolicy="no-referrer">
-            </div><p>Out of interest, I joined my manufacturing course teacher <a href="https://www.researchgate.net/profile/Kun-Li-104" target="_blank" rel="noopener noreffer ">Kun Li</a>&rsquo;s laboratory (HπAM of <a href="http://english.cqu.edu.cn/info/1201/1705.htm" target="_blank" rel="noopener noreffer ">State Key Laboratory of Mechanical Transmission in Chongqing University</a>) to learn about engineering analysis of additive manufacturing, mainly focusing on shape memory alloys and multi-objective based Optimal Thermal-Mechanical Coupling Structure Topology Design</p>]]></description>
 </item>
 </channel>
 </rss>
