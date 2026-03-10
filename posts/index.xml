@@ -20,9 +20,9 @@
     <guid>https://jiajianfu.github.io/posts/ace-f/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/ace-f/cover.png" referrerpolicy="no-referrer">
-            </div><p>This post will introduce the paper I participated in the research project about <strong>cross-embodiment teleoperation systems with force feedback</strong>.<br>
-I joined the <strong>ACE-F project</strong> during its early development stage, focusing on both <strong>hardware design</strong> and <strong>experimental validation</strong>.<br>
-As one of the <strong>main contributors</strong>, I helped design the <strong>foldable 3-DoF leader arm</strong>, built the <strong>sensor-less force feedback mechanism</strong>, and took part in <strong>simulation and real-world evaluations</strong>.</p>]]></description>
+            </div><p>This post will introduce the paper I participated in the research project about cross-embodiment teleoperation systems with force feedback.<br>
+I joined the ACE-F project during its early development stage, focusing on both hardware design and experimental validation.<br>
+As one of the main contributors, I helped design the <strong>foldable 3-DoF leader arm</strong>, built the <strong>sensor-less force feedback mechanism</strong>, and took part in <strong>simulation and real-world evaluations</strong>.</p>]]></description>
 </item>
 <item>
     <title>Pneumatic Haptic Sleeve for Guiding Wrist Rehabilitation</title>
